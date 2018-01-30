@@ -1,0 +1,6513 @@
+Script started on Mon 29 Feb 2016 06:20:46 PM PST
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ exitscript -acd cs202/project5exit[Kmake./test[2Pmake[2Plsgedit documentation./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cppmake[K./testgedit testDriver.cppmake[K./testgedit documentationls[Kmake./test[2Pmakeexitcd cs202/project5[8Pscript -a[5Pexitscript -a[5Pexit[Kexitscript -acd cs202/project5exit[Kmakeexitcd cs202/project5[8Pscript -a[5Pexit[Kgedit AGe[K[Kgency.cpp
+
+(gedit:4085): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppexit[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜void Car::setMake(char*)â€™:
+Agency.cpp:140:3: error: â€˜mPtrâ€™ was not declared in this scope
+  *mPtr = make;
+   ^
+Agency.cpp:141:3: error: â€˜nPtrâ€™ was not declared in this scope
+  *nPtr = newMake;
+   ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit Agency.cppmake[K
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+
+(gedit:4550): Gtk-WARNING **: GtkScrolledWindow 0x19a6880 is mapped but visible child GtkScrollbar 0x19aeb90 is not mapped
+
+(gedit:4550): Gtk-WARNING **: GtkScrolledWindow 0x19a6880 is mapped but visible child GtkScrollbar 0x19aed90 is not mapped
+
+(gedit:4550): Gtk-WARNING **: GtkScrolledWindow 0x19a6880 is mapped but visible child GtkScrollbar 0x19aeb90 is not mapped
+
+(gedit:4550): Gtk-WARNING **: GtkScrolledWindow 0x19a6880 is mapped but visible child GtkScrollbar 0x19aed90 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+
+(gedit:4681): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp:382:6: error: prototype for â€˜void Agency::estimateCost(int, int) constâ€™ does not match any in class â€˜Agencyâ€™
+ void Agency::estimateCost(int carNum, int dayNum) const {
+      ^
+In file included from Agency.cpp:3:0:
+Agency.h:47:8: error: candidate is: float Agency::estimateCost(int, int) const
+  float estimateCost(int, int) const;
+        ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ mna[K[Kke
+No command 'mke' found, did you mean:
+ Command 'm2e' from package 'alliance' (universe)
+ Command 'mne' from package 'python-mne' (universe)
+ Command 'make' from package 'make' (main)
+mke: command not found
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make[1Pkegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit Agency.cppmake[K[1Pkegedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppexit[Kscript -acd cs202/project5exit[Kmake./test[2Pmake[2Plsgedit documentation./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[Kgedit testDriver.cppmake[K./testgedit testDriver.cppmake[K./testgedit documentationls[Kmake./test[2Pmake[2Plsgedit documentation./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cppmake[Kgedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cppmake[Kgedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakestringsgedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cppmake[K./test[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cpp./test[K[2Pmakegedit testDriver.cppexit[Kscript -agedit testDriver.cpp./test[Kcd cs202/project5exit[K./test[2Pmakegedit testDriver.cppvalgrind --leak-check=yes ./test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[Kgedit testDriver.cppvalgrind --leak-check=yes ./test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pgedit testDriver.cppmake[Kgedit testDriver.cppvalgrind --leak-check=yes ./test[K[K[K[KAgency
+==4950== Memcheck, a memory error detector
+==4950== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==4950== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==4950== Command: ./Agency
+==4950== 
+==4950== 
+==4950== HEAP SUMMARY:
+==4950==     in use at exit: 0 bytes in 0 blocks
+==4950==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==4950== 
+==4950== All heap blocks were freed -- no leaks are possible
+==4950== 
+==4950== For counts of detected and suppressed errors, rerun with: -v
+==4950== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ exit
+Script done on Mon 29 Feb 2016 09:31:57 PM PST
+Script started on Wed 02 Mar 2016 07:30:34 PM PST
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ exitscript./Agency[4Pmakegedit testDriver.cpp[4PAgency.cpp++ Agency.cpp -o Agency[8Pedit Agency.cpp[2Phls[Kcd cs202/project6exit[Kvalgrind --leak-check=yes ./Agency[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppexit[Kscript./Agency
+Enter file name: carSt  Data
+National 0x21535e0
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜void Agency::print() constâ€™:
+Agency.cpp:336:20: error: expected initializer before â€˜<â€™ token
+  for (int i = 0, i < 5; i++) {
+                    ^
+Agency.cpp:336:20: error: expected â€˜;â€™ before â€˜<â€™ token
+Agency.cpp:336:20: error: expected primary-expression before â€˜<â€™ token
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency
+Enter file name: carData
+National 9
+3
+6
+1
+9
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmake./Agency
+Enter file name: ^C
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: darCa     carData
+National 93619
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cppexit[Kscript./Agency[4Pmakegedit testDriver.cpp[4PAgency.cpptestDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp[4PAgency.cpp[8P./Agency
+Enter file name: carData
+National 93619
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+2014 Toyota Tacoma 115.12 1
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Charger 55.36 1
+2010 Nissan Maxima 51.68 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cpp
+
+(gedit:3774): Gtk-WARNING **: GtkScrolledWindow 0x1c03880 is mapped but visible child GtkScrollbar 0x1c0cb90 is not mapped
+
+(gedit:3774): Gtk-WARNING **: GtkScrolledWindow 0x1c03880 is mapped but visible child GtkScrollbar 0x1c0cd90 is not mapped
+
+(gedit:3774): Gtk-WARNING **: GtkScrolledWindow 0x1c03880 is mapped but visible child GtkScrollbar 0x1c0cb90 is not mapped
+
+(gedit:3774): Gtk-WARNING **: GtkScrolledWindow 0x1c03880 is mapped but visible child GtkScrollbar 0x1c0cd90 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp[12P./Agency[4Pmake./Agency
+Enter file name: carData
+2014 Toyota Tacoma 115.12 1
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Charger 55.36 1
+2010 Nissan Maxima 51.68 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cppmake[Kgedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp[12P./Agency
+Enter file name: carData
+2014 Toyota Tacoma 115.12 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cppmake[K./Agency
+Enter file name: carData
+2015 Ford F150 112.83 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmake./Agency
+Enter file name: ^C
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cpp[12P./Agencygedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+testDriver.cpp: In function â€˜int main()â€™:
+testDriver.cpp:31:2: error: expected â€˜;â€™ before â€˜deleteâ€™
+  delete[] stats;
+  ^
+testDriver.cpp:31:16: error: statement cannot resolve address of overloaded function
+  delete[] stats;
+                ^
+make: *** [Agency] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppmake[Kgedit testDriver.cpp[12P./Agency[4Pmake./Agency
+Enter file name: carNum   Data
+what car would you like to calculate? 3
+how many days? 12
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppmake[Kgedit testDriver.cpp[12P./Agency[4Pmake./Agency
+Enter file name: carData
+what car would you like to calculate? 2
+how many days? 15
+1363.35
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cppmake[K./Agency[4Pmakegedit testDriver.cppmake[Kgedit testDriver.cpp[12P./Agency[4Pmakegedit testDriver.cppmake[Kgedit testDriver.cpp[12P./Agency[4Pmake./Agencygedit testDriver.cpp[12P./Agency[4Pmakegedit testDriver.cpp[12P./Agency[4Pmakegedit testDriver.cpp[12P./Agency[4Pmakegedit testDriver.cpp[4PAgency.cpp[8P./Agencygedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agencygedit Agency.cpp[8P./Agency[4Pmake./Agency
+Enter file name: carData
+what car would you like to calculate? 2
+how many days? 15
+1276.5
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit testDriver.cppmake[Kgedit testDriver.cpp[12P./Agency[4Pmakegedit testDriver.cppmake[Kgedit testDriver.cpp[12P./Agency[4Pmakegedit testDriver.cpp[12P./Agency[4Pmakegedit testDriver.cpp[12P./Agency[4Pmakegedit testDriver.cpp[4PAgency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cppexit[Kscript./Agency[4Pmakegedit testDriver.cpp[4PAgency.cpp++ Agency.cpp -o Agency[8Pedit Agency.cpp[2Phls[Kcd cs202/project6exit[Kvalgrind --leak-check=yes ./Agency
+==4003== Memcheck, a memory error detector
+==4003== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==4003== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==4003== Command: ./Agency
+==4003== 
+Enter file name: carData
+==4003== Invalid write of size 1
+==4003==    at 0x4EAC884: std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19)
+==4003==    by 0x401AA5: Agency::readInData(char*) (in /home/alex/cs202/project6/Agency)
+==4003==    by 0x400ED9: main (in /home/alex/cs202/project6/Agency)
+==4003==  Address 0x5a1ff05 is 0 bytes after a block of size 5 alloc'd
+==4003==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4003==    by 0x401A85: Agency::readInData(char*) (in /home/alex/cs202/project6/Agency)
+==4003==    by 0x400ED9: main (in /home/alex/cs202/project6/Agency)
+==4003== 
+what car would you like to calculate? 4
+how many days? 3
+331.29
+==4003== 
+==4003== HEAP SUMMARY:
+==4003==     in use at exit: 0 bytes in 0 blocks
+==4003==   total heap usage: 143 allocs, 143 frees, 13,056 bytes allocated
+==4003== 
+==4003== All heap blocks were freed -- no leaks are possible
+==4003== 
+==4003== For counts of detected and suppressed errors, rerun with: -v
+==4003== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ valgrind --leak-check=yes ./Agency[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./Agency[Kvalgrind --leak-check=yes ./Agency[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kvalgrind --leak-check=yes ./Agency[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./Agency[K[4Pmakegedit Agency.cpp[8P./Agency[4Pmake./Agencygedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+testDriver.cpp: In function â€˜int main()â€™:
+testDriver.cpp:31:11: error: â€˜statsâ€™ was not declared in this scope
+  delete[] stats;
+           ^
+make: *** [Agency] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppvalgrind --leak-check=yes ./Agency[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./Agency[K[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit testDriver.cppmake[Kgedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppmake[Kgedit Agency.cppvalgrind --leak-check=yes ./Agency[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./Agency[K
+Enter file name: carData
+what car would you like to calculate? 6
+how many days? 6
+390.12
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ cd ..[K[K[K[K[Kexit
+Script done on Wed 02 Mar 2016 10:00:37 PM PST
+Script started on Sun 06 Mar 2016 01:55:55 PM PST
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ exitgedit sortcd practice1/ls[Kcd ..script -a[1P./Agency[4Pmakegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppexit[Kgedit sortcd practice1/ls[Kcd ..script -a[1P./Agency[4Pmake./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+1
+National 93619
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+2
+2014 Toyota Tacoma 115.12 1
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Charger 55.36 1
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+3
+2014 Toyota Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+4
+what car would you like to calculate? 6
+how many days? 2
+130.04
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+5
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+testDriver.cpp: In function â€˜int main()â€™:
+testDriver.cpp:11:14: error: expected â€˜;â€™ before â€˜sortMakeâ€™
+  Agency(inv) sortMake, sortPrice;
+              ^
+make: *** [Agency] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+testDriver.cpp: In function â€˜int main()â€™:
+testDriver.cpp:11:14: error: expected â€˜;â€™ before â€˜sortMakeâ€™
+  Agency(inv) sortMake;
+              ^
+make: *** [Agency] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+testDriver.cpp: In function â€˜int main()â€™:
+testDriver.cpp:11:12: error: redeclaration of â€˜Agency invâ€™
+  Agency(inv);
+            ^
+testDriver.cpp:10:9: error: â€˜Agency invâ€™ previously declared here
+  Agency inv;
+         ^
+make: *** [Agency] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp
+
+(gedit:3875): Gtk-WARNING **: GtkScrolledWindow 0x2243880 is mapped but visible child GtkScrollbar 0x224cb80 is not mapped
+
+(gedit:3875): Gtk-WARNING **: GtkScrolledWindow 0x2243880 is mapped but visible child GtkScrollbar 0x224cd80 is not mapped
+
+(gedit:3875): Gtk-WARNING **: GtkScrolledWindow 0x2243880 is mapped but visible child GtkScrollbar 0x224cb80 is not mapped
+
+(gedit:3875): Gtk-WARNING **: GtkScrolledWindow 0x2243880 is mapped but visible child GtkScrollbar 0x224cd80 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppmake[Kgedit testDriver.cppmake[Kgedit testDriver.cppmake[Kgedit testDriver.cppmake[Kgedit testDriver.cppmake[Kgedit testDriver.cpp[12P./Agency[4Pmake./Agency
+Enter file name: carData
+Segmentation fault (core dumped)
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp[12P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+1
+National 93619
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+5
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cpp
+
+(gedit:3948): Gtk-WARNING **: GtkScrolledWindow 0x17cd880 is mapped but visible child GtkScrollbar 0x17d6b80 is not mapped
+
+(gedit:3948): Gtk-WARNING **: GtkScrolledWindow 0x17cd880 is mapped but visible child GtkScrollbar 0x17d6d80 is not mapped
+
+(gedit:3948): Gtk-WARNING **: GtkScrolledWindow 0x17cd880 is mapped but visible child GtkScrollbar 0x17d6b80 is not mapped
+
+(gedit:3948): Gtk-WARNING **: GtkScrolledWindow 0x17cd880 is mapped but visible child GtkScrollbar 0x17d6d80 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit testDriver.cpp[12P./Agency[4Pmakegedit testDriver.cppmake[K./Agency[4Pmake./Agency[4Pmake
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp[12P./Agency
+Enter file name: carData
+Segmentation fault (core dumped)
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+testDriver.cpp: In function â€˜int main()â€™:
+testDriver.cpp:18:2: error: â€˜sortMakeâ€™ was not declared in this scope
+  sortMake.readInData(fileName);
+  ^
+testDriver.cpp:19:2: error: â€˜sortPriceâ€™ was not declared in this scope
+  sortPrice.readInData(fileName);
+  ^
+make: *** [Agency] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp
+
+(gedit:3979): Gtk-WARNING **: GtkScrolledWindow 0x205e880 is mapped but visible child GtkScrollbar 0x2068a10 is not mapped
+
+(gedit:3979): Gtk-WARNING **: GtkScrolledWindow 0x205e880 is mapped but visible child GtkScrollbar 0x2068c10 is not mapped
+
+(gedit:3979): Gtk-WARNING **: GtkScrolledWindow 0x205e880 is mapped but visible child GtkScrollbar 0x2068a10 is not mapped
+
+(gedit:3979): Gtk-WARNING **: GtkScrolledWindow 0x205e880 is mapped but visible child GtkScrollbar 0x2068c10 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppmake[Kgedit testDriver.cpp[12P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+1
+National 93619
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+2
+2014 Toyota Tacoma 115.12 1
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Charger 55.36 1
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+3
+2014 Toyota Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+4
+what car would you like to calculate? 5
+how many days? 5
+226.25
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+5
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit Agency.cpp
+
+(gedit:4012): Gtk-WARNING **: GtkScrolledWindow 0x1d30880 is mapped but visible child GtkScrollbar 0x1d3aa30 is not mapped
+
+(gedit:4012): Gtk-WARNING **: GtkScrolledWindow 0x1d30880 is mapped but visible child GtkScrollbar 0x1d3ac30 is not mapped
+
+(gedit:4012): Gtk-WARNING **: GtkScrolledWindow 0x1d30880 is mapped but visible child GtkScrollbar 0x1d3aa30 is not mapped
+
+(gedit:4012): Gtk-WARNING **: GtkScrolledWindow 0x1d30880 is mapped but visible child GtkScrollbar 0x1d3ac30 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In function â€˜void sortByMake()â€™:
+Agency.cpp:409:15: error: â€˜inventoryâ€™ was not declared in this scope
+  Car* iPtr1 = inventory;
+               ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:412:24: error: within this context
+  char* bPtr = (*iPtr1).make;
+                        ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:413:24: error: within this context
+  char* fPtr = (*iPtr2).make;
+                        ^
+Agency.cpp:414:8: error: cannot resolve overloaded function â€˜swapâ€™ based on conversion to type â€˜boolâ€™
+  while(swap) {
+        ^
+Agency.cpp:415:8: error: overloaded function with no contextual type information
+   swap = false;
+        ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:420:20: error: within this context
+    bPtr = (*iPtr1).make;
+                    ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:421:20: error: within this context
+    fPtr = (*iPtr2).make;
+                    ^
+Agency.cpp:423:20: error: no matching function for call to â€˜Car::copy(Car*&)â€™
+     temp.copy(iPtr1);
+                    ^
+Agency.cpp:423:20: note: candidate is:
+Agency.cpp:85:6: note: void Car::copy(Car)
+ void Car::copy(Car data) { //function that copies one object into another
+      ^
+Agency.cpp:85:6: note:   no known conversion for argument 1 from â€˜Car*â€™ to â€˜Carâ€™
+Agency.cpp:426:10: error: overloaded function with no contextual type information
+     swap = true;
+          ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In function â€˜void sortByMake()â€™:
+Agency.cpp:409:15: error: â€˜inventoryâ€™ was not declared in this scope
+  Car* iPtr1 = inventory;
+               ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:412:24: error: within this context
+  char* bPtr = (*iPtr1).make;
+                        ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:413:24: error: within this context
+  char* fPtr = (*iPtr2).make;
+                        ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:420:20: error: within this context
+    bPtr = (*iPtr1).make;
+                    ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:421:20: error: within this context
+    fPtr = (*iPtr2).make;
+                    ^
+Agency.cpp:423:20: error: no matching function for call to â€˜Car::copy(Car*&)â€™
+     temp.copy(iPtr1);
+                    ^
+Agency.cpp:423:20: note: candidate is:
+Agency.cpp:85:6: note: void Car::copy(Car)
+ void Car::copy(Car data) { //function that copies one object into another
+      ^
+Agency.cpp:85:6: note:   no known conversion for argument 1 from â€˜Car*â€™ to â€˜Carâ€™
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In function â€˜void sortByMake()â€™:
+Agency.cpp:409:15: error: â€˜inventoryâ€™ was not declared in this scope
+  Car* iPtr1 = inventory;
+               ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:412:24: error: within this context
+  char* bPtr = (*iPtr1).make;
+                        ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:413:24: error: within this context
+  char* fPtr = (*iPtr2).make;
+                        ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:420:20: error: within this context
+    bPtr = (*iPtr1).make;
+                    ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:421:20: error: within this context
+    fPtr = (*iPtr2).make;
+                    ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In function â€˜void sortByMake()â€™:
+Agency.cpp:410:15: error: â€˜inventoryâ€™ was not declared in this scope
+  Car* iPtr1 = inventory;
+               ^
+Agency.cpp:419:14: error: request for member â€˜getMakeâ€™ in â€˜frontMakeâ€™, which is of non-class type â€˜char*â€™
+    frontMake.getMake();
+              ^
+Agency.cpp:420:13: error: request for member â€˜getMakeâ€™ in â€˜backMakeâ€™, which is of non-class type â€˜char*â€™
+    backMake.getMake();
+             ^
+Agency.cpp:421:4: error: â€˜bPtrâ€™ was not declared in this scope
+    bPtr = backMake;
+    ^
+Agency.cpp:422:4: error: â€˜fPtrâ€™ was not declared in this scope
+    fPtr = frontMake;
+    ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In function â€˜void sortByMake()â€™:
+Agency.cpp:410:15: error: â€˜inventoryâ€™ was not declared in this scope
+  Car* iPtr1 = inventory;
+               ^
+Agency.cpp:419:14: error: request for member â€˜getMakeâ€™ in â€˜frontMakeâ€™, which is of non-class type â€˜char*â€™
+    frontMake.getMake();
+              ^
+Agency.cpp:420:13: error: request for member â€˜getMakeâ€™ in â€˜backMakeâ€™, which is of non-class type â€˜char*â€™
+    backMake.getMake();
+             ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In function â€˜void sortByMake()â€™:
+Agency.cpp:411:15: error: â€˜inventoryâ€™ was not declared in this scope
+  Car* iPtr1 = inventory;
+               ^
+Agency.cpp:420:14: error: request for member â€˜getMakeâ€™ in â€˜frontMakeâ€™, which is of non-class type â€˜char*â€™
+    frontMake.getMake();
+              ^
+Agency.cpp:421:13: error: request for member â€˜getMakeâ€™ in â€˜backMakeâ€™, which is of non-class type â€˜char*â€™
+    backMake.getMake();
+             ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+
+(gedit:4155): Gtk-WARNING **: GtkScrolledWindow 0x2746880 is mapped but visible child GtkScrollbar 0x274eb80 is not mapped
+
+(gedit:4155): Gtk-WARNING **: GtkScrolledWindow 0x2746880 is mapped but visible child GtkScrollbar 0x274ed80 is not mapped
+
+(gedit:4155): Gtk-WARNING **: GtkScrolledWindow 0x2746880 is mapped but visible child GtkScrollbar 0x274eb80 is not mapped
+
+(gedit:4155): Gtk-WARNING **: GtkScrolledWindow 0x2746880 is mapped but visible child GtkScrollbar 0x274ed80 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In function â€˜void sortByMake()â€™:
+Agency.cpp:411:15: error: â€˜inventoryâ€™ was not declared in this scope
+  Car* iPtr1 = inventory;
+               ^
+Agency.cpp:420:14: error: request for member â€˜getMakeâ€™ in â€˜frontMakeâ€™, which is of non-class type â€˜char*â€™
+    frontMake.getMake();
+              ^
+Agency.cpp:421:13: error: request for member â€˜getMakeâ€™ in â€˜backMakeâ€™, which is of non-class type â€˜char*â€™
+    backMake.getMake();
+             ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜char* Car::getMake() constâ€™:
+Agency.cpp:137:10: error: invalid conversion from â€˜charâ€™ to â€˜char*â€™ [-fpermissive]
+  return *make;
+          ^
+Agency.cpp: In member function â€˜char* Car::getModel() constâ€™:
+Agency.cpp:143:10: error: invalid conversion from â€˜charâ€™ to â€˜char*â€™ [-fpermissive]
+  return *model;
+          ^
+Agency.cpp: In function â€˜void sortByMake()â€™:
+Agency.cpp:411:15: error: â€˜inventoryâ€™ was not declared in this scope
+  Car* iPtr1 = inventory;
+               ^
+Agency.cpp:420:14: error: request for member â€˜getMakeâ€™ in â€˜frontMakeâ€™, which is of non-class type â€˜char*â€™
+    frontMake.getMake();
+              ^
+Agency.cpp:421:13: error: request for member â€˜getMakeâ€™ in â€˜backMakeâ€™, which is of non-class type â€˜char*â€™
+    backMake.getMake();
+             ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In function â€˜void sortByMake()â€™:
+Agency.cpp:411:15: error: â€˜inventoryâ€™ was not declared in this scope
+  Car* iPtr1 = inventory;
+               ^
+Agency.cpp:420:17: error: request for member â€˜getMakeâ€™ in â€˜* frontMakeâ€™, which is of non-class type â€˜charâ€™
+    (*frontMake).getMake();
+                 ^
+Agency.cpp:421:16: error: request for member â€˜getMakeâ€™ in â€˜* backMakeâ€™, which is of non-class type â€˜charâ€™
+    (*backMake).getMake();
+                ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In function â€˜void sortByMake()â€™:
+Agency.cpp:411:15: error: â€˜inventoryâ€™ was not declared in this scope
+  Car* iPtr1 = inventory;
+               ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cpptestDriver.cpp[12P./Agency[4Pmakegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cpptestDriver.cpp[12P./Agency[4Pmakegedit testDriver.cppmake[K./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+5
+National 93619
+2014 Toyota Tacoma 115.12 1
+2011 Toyota Rav4 65.02 1
+2010 Toyota Corolla 50.36 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+2012 Mazda CX5 86.75 1
+2012 Honda CRV 85.1 0
+2013 GMC Yukon 110.43 0
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Neon 45.25 1
+2009 ÀKÚ Charger 55.36 1
+2012 PRÚ Volt 89.03 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp[12P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2014 Toyota Tacoma 115.12 1
+2011 Toyota Rav4 65.02 1
+2010 Toyota Corolla 50.36 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+2012 Mazda CX5 86.75 1
+2012 Honda CRV 85.1 0
+2013 GMC Yukon 110.43 0
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Neon 45.25 1
+2009 À[˜ Charger 55.36 1
+2012 Pb˜ Volt 89.03 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cpp[12P./Agency[4Pmakegedit testDriver.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 À;\ Rav4 65.02 1
+2010 0B\ Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜void Agency::sortByMake()â€™:
+Agency.cpp:423:18: error: request for member â€˜lengthâ€™ in â€˜frontMakeâ€™, which is of non-class type â€˜char*â€™
+    if (frontMake.length > backMake.length) {
+                  ^
+Agency.cpp:423:36: error: request for member â€˜lengthâ€™ in â€˜backMakeâ€™, which is of non-class type â€˜char*â€™
+    if (frontMake.length > backMake.length) {
+                                    ^
+Agency.cpp:424:27: error: request for member â€˜lengthâ€™ in â€˜frontMakeâ€™, which is of non-class type â€˜char*â€™
+     maxLength = frontMake.length;
+                           ^
+Agency.cpp:425:32: error: request for member â€˜lengthâ€™ in â€˜backMakeâ€™, which is of non-class type â€˜char*â€™
+    } else maxLength = backMake.length;
+                                ^
+Agency.cpp:430:5: error: expected â€˜;â€™ before â€˜bPtrâ€™
+     bPtr++;
+     ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜void Agency::sortByMake()â€™:
+Agency.cpp:423:18: error: request for member â€˜lengthâ€™ in â€˜frontMakeâ€™, which is of non-class type â€˜char*â€™
+    if (frontMake.length > backMake.length) {
+                  ^
+Agency.cpp:423:36: error: request for member â€˜lengthâ€™ in â€˜backMakeâ€™, which is of non-class type â€˜char*â€™
+    if (frontMake.length > backMake.length) {
+                                    ^
+Agency.cpp:424:27: error: request for member â€˜lengthâ€™ in â€˜frontMakeâ€™, which is of non-class type â€˜char*â€™
+     maxLength = frontMake.length;
+                           ^
+Agency.cpp:425:32: error: request for member â€˜lengthâ€™ in â€˜backMakeâ€™, which is of non-class type â€˜char*â€™
+    } else maxLength = backMake.length;
+                                ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜void Agency::sortByMake()â€™:
+Agency.cpp:424:20: warning: NULL used in arithmetic [-Wpointer-arith]
+    while (*fPtr != NULL) {
+                    ^
+Agency.cpp:430:20: warning: NULL used in arithmetic [-Wpointer-arith]
+    while (*bPtr != NULL) {
+                    ^
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+make: Nothing to be done for `all'.
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cppmake[K./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Segmentation fault (core dumped)
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency[4Pmake./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Segmentation fault (core dumped)
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 ÀÛ? Rav4 65.02 1
+2010 0â? Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Segmentation fault (core dumped)
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 À›T Rav4 65.02 1
+2010 0¢T Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2011 À›T Rav4 65.02 1
+2010 0¢T Corolla 50.36 1
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007  ›T Legacy 59.19 0
+2014 0¢T Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2007  ›T Legacy 59.19 0
+2011 À›T Rav4 65.02 1
+2010 0¢T Corolla 50.36 1
+2014 0¢T Tacoma 115.12 1
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 À›T Maxima 51.68 1
+2016 0¢T Outback 71.27 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2007  ›T Legacy 59.19 0
+2011 À›T Rav4 65.02 1
+2010 À›T Maxima 51.68 1
+2010 0¢T Corolla 50.36 1
+2014 0¢T Tacoma 115.12 1
+2016 0¢T Outback 71.27 0
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012  ›T CRV 85.1 0
+2012 0¢T CX5 86.75 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2007  ›T Legacy 59.19 0
+2012  ›T CRV 85.1 0
+2011 À›T Rav4 65.02 1
+2010 À›T Maxima 51.68 1
+2010 0¢T Corolla 50.36 1
+2014 0¢T Tacoma 115.12 1
+2016 0¢T Outback 71.27 0
+2012 0¢T CX5 86.75 1
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 À›T Fiesta 42.48 0
+2013 P¢T Yukon 110.43 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2007  ›T Legacy 59.19 0
+2012  ›T CRV 85.1 0
+2011 À›T Rav4 65.02 1
+2010 À›T Maxima 51.68 1
+2008 À›T Fiesta 42.48 0
+2010 0¢T Corolla 50.36 1
+2014 0¢T Tacoma 115.12 1
+2016 0¢T Outback 71.27 0
+2012 0¢T CX5 86.75 1
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 À›T F150 112.83 1
+2013 0¢T Yukon 110.43 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2007  ›T Legacy 59.19 0
+2012  ›T CRV 85.1 0
+2011 À›T Rav4 65.02 1
+2010 À›T Maxima 51.68 1
+2008 À›T Fiesta 42.48 0
+2015 À›T F150 112.83 1
+2010 0¢T Corolla 50.36 1
+2014 0¢T Tacoma 115.12 1
+2016 0¢T Outback 71.27 0
+2012 0¢T CX5 86.75 1
+2013 0¢T Yukon 110.43 0
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009  ›T Charger 55.36 1
+2015 0¢T Fusion 90.89 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2007  ›T Legacy 59.19 0
+2012  ›T CRV 85.1 0
+2009  ›T Charger 55.36 1
+2011 À›T Rav4 65.02 1
+2010 À›T Maxima 51.68 1
+2008 À›T Fiesta 42.48 0
+2015 À›T F150 112.83 1
+2010 0¢T Corolla 50.36 1
+2014 0¢T Tacoma 115.12 1
+2016 0¢T Outback 71.27 0
+2012 0¢T CX5 86.75 1
+2013 0¢T Yukon 110.43 0
+2015 0¢T Fusion 90.89 0
+2012 À›T Volt 89.03 0
+2009 P¢T Neon 45.25 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2007  ›T Legacy 59.19 0
+2012  ›T CRV 85.1 0
+2009  ›T Charger 55.36 1
+2011 À›T Rav4 65.02 1
+2010 À›T Maxima 51.68 1
+2008 À›T Fiesta 42.48 0
+2015 À›T F150 112.83 1
+2012 À›T Volt 89.03 0
+2010 0¢T Corolla 50.36 1
+2014 0¢T Tacoma 115.12 1
+2016 0¢T Outback 71.27 0
+2012 0¢T CX5 86.75 1
+2013 0¢T Yukon 110.43 0
+2015 À›T Fusion 90.89 0
+2009 P¢T Neon 45.25 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2007  ›T Legacy 59.19 0
+2012  ›T CRV 85.1 0
+2009  ›T Charger 55.36 1
+2011 À›T Rav4 65.02 1
+2010 À›T Maxima 51.68 1
+2008 À›T Fiesta 42.48 0
+2015 À›T F150 112.83 1
+2012 À›T Volt 89.03 0
+2015 À›T Fusion 90.89 0
+2010 0¢T Corolla 50.36 1
+2014 0¢T Tacoma 115.12 1
+2016 0¢T Outback 71.27 0
+2012 0¢T CX5 86.75 1
+2013 À›T Yukon 110.43 0
+2009 0¢T Neon 45.25 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2007  ›T Legacy 59.19 0
+2012  ›T CRV 85.1 0
+2009  ›T Charger 55.36 1
+2011 À›T Rav4 65.02 1
+2010 À›T Maxima 51.68 1
+2008 À›T Fiesta 42.48 0
+2015 À›T F150 112.83 1
+2012 À›T Volt 89.03 0
+2015 À›T Fusion 90.89 0
+2013 À›T Yukon 110.43 0
+2010 0¢T Corolla 50.36 1
+2014 0¢T Tacoma 115.12 1
+2016 0¢T Outback 71.27 0
+2012 À›T CX5 86.75 1
+2009 0¢T Neon 45.25 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 ÀK Rav4 65.02 1
+2010 0R Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 ÀË’ Rav4 65.02 1
+2010 0Ò’ Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+
+(gedit:4524): Gtk-WARNING **: GtkScrolledWindow 0xdb4880 is mapped but visible child GtkScrollbar 0xdbc9d0 is not mapped
+
+(gedit:4524): Gtk-WARNING **: GtkScrolledWindow 0xdb4880 is mapped but visible child GtkScrollbar 0xdbcbd0 is not mapped
+
+(gedit:4524): Gtk-WARNING **: GtkScrolledWindow 0xdb4880 is mapped but visible child GtkScrollbar 0xdbc9d0 is not mapped
+
+(gedit:4524): Gtk-WARNING **: GtkScrolledWindow 0xdb4880 is mapped but visible child GtkScrollbar 0xdbcbd0 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make'[K
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all informatScript started on Sun 06 Mar 2016 04:07:20 PM PST
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmake./Agencygedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 À;· Rav4 65.02 1
+2010 0B· Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+1
+National 93619
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agencygedit Agency.cppmake[K./Agencygedit Agency.cpp[K[K[K[K[K[K[K[K[K[Ktestdriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ls
+[0m[01;32mAgency[0m       Agency.h   carData   makefile~               testDriver.cpp~
+Agency.cpp   Agency.h~  carData~  PA6a_Kastanek_Alex.pdf  typescript
+Agency.cpp~  Agency.o   makefile  testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit testDriver.cpp
+
+(gedit:5297): Gtk-WARNING **: GtkScrolledWindow 0xb64880 is mapped but visible child GtkScrollbar 0xb6cb80 is not mapped
+
+(gedit:5297): Gtk-WARNING **: GtkScrolledWindow 0xb64880 is mapped but visible child GtkScrollbar 0xb6cd80 is not mapped
+
+(gedit:5297): Gtk-WARNING **: GtkScrolledWindow 0xb64880 is mapped but visible child GtkScrollbar 0xb6cb80 is not mapped
+
+(gedit:5297): Gtk-WARNING **: GtkScrolledWindow 0xb64880 is mapped but visible child GtkScrollbar 0xb6cd80 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppls[Kgedit testdriver.cpp[12P./Agency[4Pmake./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+1
+National 93619
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+make: Nothing to be done for `all'.
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make./Agency[4Pmakegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppmake[K./Agency[4Pmakegedit testDriver.cppls[Kgedit testdriver.cpp[12P./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+In file included from Agency.cpp:3:0:
+Agency.h: In member function â€˜void Agency::sortByMake()â€™:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:454:21: error: within this context
+    cout << (*iPtr1).make << endl;
+                     ^
+In file included from Agency.cpp:3:0:
+Agency.h:25:9: error: â€˜char* Car::makeâ€™ is private
+  char * make;
+         ^
+Agency.cpp:455:21: error: within this context
+    cout << (*iPtr2).make << endl;
+                     ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp
+
+(gedit:5358): Gtk-WARNING **: GtkScrolledWindow 0x147b880 is mapped but visible child GtkScrollbar 0x14849d0 is not mapped
+
+(gedit:5358): Gtk-WARNING **: GtkScrolledWindow 0x147b880 is mapped but visible child GtkScrollbar 0x1484bd0 is not mapped
+
+(gedit:5358): Gtk-WARNING **: GtkScrolledWindow 0x147b880 is mapped but visible child GtkScrollbar 0x14849d0 is not mapped
+
+(gedit:5358): Gtk-WARNING **: GtkScrolledWindow 0x147b880 is mapped but visible child GtkScrollbar 0x1484bd0 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit Agency.cpp
+
+(gedit:5368): Gtk-WARNING **: GtkScrolledWindow 0x20c1880 is mapped but visible child GtkScrollbar 0x20ca9f0 is not mapped
+
+(gedit:5368): Gtk-WARNING **: GtkScrolledWindow 0x20c1880 is mapped but visible child GtkScrollbar 0x20cabf0 is not mapped
+
+(gedit:5368): Gtk-WARNING **: GtkScrolledWindow 0x20c1880 is mapped but visible child GtkScrollbar 0x20ca9f0 is not mapped
+
+(gedit:5368): Gtk-WARNING **: GtkScrolledWindow 0x20c1880 is mapped but visible child GtkScrollbar 0x20cabf0 is not mapped
+
+(gedit:5368): Gtk-WARNING **: GtkScrolledWindow 0x20c1880 is mapped but visible child GtkScrollbar 0x20cabf0 is not mapped
+
+(gedit:5368): Gtk-WARNING **: GtkScrolledWindow 0x20c1880 is mapped but visible child GtkScrollbar 0x20ca9f0 is not mapped
+
+(gedit:5368): Gtk-WARNING **: GtkScrolledWindow 0x20c1880 is mapped but visible child GtkScrollbar 0x20cabf0 is not mapped
+
+(gedit:5368): Gtk-WARNING **: GtkScrolledWindow 0x20c1880 is mapped but visible child GtkScrollbar 0x20ca9f0 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit testDriver.cppmake[K./Agency[4Pmakegedit testDriver.cppmake[K./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+Ford
+Toyota
+GMC
+Toyota
+Dodge
+Toyota
+Toyota
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+
+Ford
+Honda
+GMC
+Honda
+Dodge
+Honda
+Honda
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+Toyota
+Toyota
+
+Ford
+GMC
+Dodge
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Subaru
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Dodge
+Subaru
+Chevy
+Subaru
+Subaru
+Subaru
+Nissan
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Dodge
+Mazda
+Chevy
+Mazda
+Mazda
+Subaru
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Dodge
+Honda
+Chevy
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+GMC
+Ford
+GMC
+Dodge
+GMC
+Chevy
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Dodge
+Chevy
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 ÀË Rav4 65.02 1
+2010 0Ò Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+Ford
+Toyota
+GMC
+Toyota
+Dodge
+Toyota
+Toyota
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+
+Ford
+Honda
+GMC
+Honda
+Dodge
+Honda
+Honda
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+Toyota
+Toyota
+
+Ford
+GMC
+Dodge
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Subaru
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Dodge
+Subaru
+Chevy
+Subaru
+Subaru
+Subaru
+Nissan
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Dodge
+Mazda
+Chevy
+Mazda
+Mazda
+Subaru
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Dodge
+Honda
+Chevy
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+GMC
+Ford
+GMC
+Dodge
+GMC
+Chevy
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Dodge
+Chevy
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 À{£ Rav4 65.02 1
+2010 0‚£ Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+Ford
+Toyota
+GMC
+Toyota
+Dodge
+Toyota
+Toyota
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+
+Ford
+Honda
+GMC
+Honda
+Dodge
+Honda
+Honda
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+Toyota
+Toyota
+
+Ford
+GMC
+Dodge
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Subaru
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Dodge
+Subaru
+Chevy
+Subaru
+Subaru
+Subaru
+Nissan
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Dodge
+Mazda
+Chevy
+Mazda
+Mazda
+Subaru
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Dodge
+Honda
+Chevy
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+GMC
+Ford
+GMC
+Dodge
+GMC
+Chevy
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Dodge
+Chevy
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 À«8 Rav4 65.02 1
+2010 0²8 Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+Ford
+Toyota
+GMC
+Toyota
+Dodge
+Toyota
+Toyota
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+
+Ford
+Honda
+GMC
+Honda
+Dodge
+Honda
+Honda
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+Toyota
+Toyota
+
+Ford
+GMC
+Dodge
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Subaru
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Dodge
+Subaru
+Chevy
+Subaru
+Subaru
+Subaru
+Nissan
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Dodge
+Mazda
+Chevy
+Mazda
+Mazda
+Subaru
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Dodge
+Honda
+Chevy
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+GMC
+Ford
+GMC
+Dodge
+GMC
+Chevy
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Dodge
+Chevy
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 ÀÛ# Rav4 65.02 1
+2010 0â# Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp[8P./Agencygedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+Ford
+Toyota
+GMC
+Toyota
+Dodge
+Toyota
+Toyota
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+
+Ford
+Honda
+GMC
+Honda
+Dodge
+Honda
+Honda
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Toyota
+Toyota
+
+Ford
+GMC
+Dodge
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Subaru
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Dodge
+Subaru
+Chevy
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Dodge
+Mazda
+Chevy
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Dodge
+Honda
+Chevy
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+GMC
+Ford
+GMC
+Dodge
+GMC
+Chevy
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Dodge
+Chevy
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 €kU Rav4 65.02 1
+2010 PrU Corolla 50.36 1
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+Ford
+Toyota
+GMC
+Toyota
+Dodge
+Toyota
+Toyota
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+
+Ford
+Honda
+GMC
+Honda
+Dodge
+Honda
+Honda
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Toyota
+Toyota
+
+Ford
+GMC
+Dodge
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Subaru
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Dodge
+Subaru
+Chevy
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Dodge
+Mazda
+Chevy
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Dodge
+Honda
+Chevy
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+GMC
+Ford
+GMC
+Dodge
+GMC
+Chevy
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Dodge
+Chevy
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 €{Œ Rav4 65.02 1
+2010 P‚Œ Corolla 50.36 1
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make./Agencygedit Agency.cpp[8P./Agency
+Enter file name: cardata    Data
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+
+Honda
+Toyota
+
+National 93619
+2012 €˜ CRV 85.1 0
+2014 P¢ Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmake./Agencygedit Agency.cpp[8P./Agencygedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit Agency.cpp[8P./Agency[4Pmake
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+
+Honda
+Toyota
+
+National 93619
+2012 €Èî CRV 85.1 0
+2014 0Òî Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmake./Agency
+Enter file name: carf d Data
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+
+Honda
+Toyota
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 03 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+03
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 P3 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+P3
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 03 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+03
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 P3 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+P3
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 03 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+03
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 P3 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+P3
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 03 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+03
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 P3 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+P3
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 03 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+03
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 P3 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+P3
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 03 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+03
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 P3 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+€ø2
+P3
+
+National 93619
+2012 €ø2 CRV 85.1 0
+2014 03 Tacoma 115.12 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+Ford
+Toyota
+
+Ford
+Honda
+Honda
+Toyota
+
+Ford
+Honda
+Honda
+Toyota
+
+National 93619
+2015 Ford Fusion 90.89 0
+2012 À˜e CRV 85.1 0
+2014 0¢e Tacoma 115.12 1
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp[8P./Agencygedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carDat
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cppmake[K./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+Ford
+Toyota
+
+Ford
+Honda
+Honda
+Toyota
+
+Ford
+Honda
+Honda
+Toyota
+
+National 93619
+2015 Ford Fusion 90.89 0
+2012 Honda CRV 85.1 0
+2014 Toyota Tacoma 115.12 1
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+
+(gedit:5615): Gtk-WARNING **: GtkScrolledWindow 0x17a4880 is mapped but visible child GtkScrollbar 0x17ae9d0 is not mapped
+
+(gedit:5615): Gtk-WARNING **: GtkScrolledWindow 0x17a4880 is mapped but visible child GtkScrollbar 0x17aebd0 is not mapped
+
+(gedit:5615): Gtk-WARNING **: GtkScrolledWindow 0x17a4880 is mapped but visible child GtkScrollbar 0x17ae9d0 is not mapped
+
+(gedit:5615): Gtk-WARNING **: GtkScrolledWindow 0x17a4880 is mapped but visible child GtkScrollbar 0x17aebd0 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Honda
+Toyota
+Ford
+Toyota
+GMC
+Toyota
+Dodge
+Toyota
+Toyota
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+
+Ford
+Honda
+GMC
+Honda
+Dodge
+Honda
+Honda
+Toyota
+Mazda
+Toyota
+Subaru
+Toyota
+Ford
+Toyota
+Toyota
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+Toyota
+Toyota
+
+Ford
+GMC
+Dodge
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Subaru
+Toyota
+Ford
+Toyota
+Dodge
+Toyota
+Chevy
+Toyota
+Subaru
+Toyota
+Nissan
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Mazda
+Subaru
+Ford
+Subaru
+Dodge
+Subaru
+Chevy
+Subaru
+Subaru
+Subaru
+Nissan
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Honda
+Mazda
+Ford
+Mazda
+Dodge
+Mazda
+Chevy
+Mazda
+Mazda
+Subaru
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+GMC
+Ford
+GMC
+GMC
+Honda
+Ford
+Honda
+Dodge
+Honda
+Chevy
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+GMC
+Ford
+GMC
+Dodge
+GMC
+Chevy
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Ford
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Ford
+Dodge
+Ford
+Chevy
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Dodge
+Dodge
+Chevy
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 Toyota Rav4 65.02 1
+2010 Toyota Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Chevy
+Dodge
+Dodge
+Dodge
+Dodge
+Ford
+Ford
+Ford
+Ford
+Ford
+Ford
+GMC
+GMC
+Honda
+Honda
+Mazda
+Mazda
+Nissan
+Nissan
+Subaru
+Subaru
+Subaru
+Subaru
+Toyota
+Toyota
+Toyota
+Toyota
+Toyota
+
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2011 Toyota Rav4 65.02 1
+2010 Toyota Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+
+(gedit:5653): Gtk-WARNING **: GtkScrolledWindow 0x1d44880 is mapped but visible child GtkScrollbar 0x1d4c9f0 is not mapped
+
+(gedit:5653): Gtk-WARNING **: GtkScrolledWindow 0x1d44880 is mapped but visible child GtkScrollbar 0x1d4cbf0 is not mapped
+
+(gedit:5653): Gtk-WARNING **: GtkScrolledWindow 0x1d44880 is mapped but visible child GtkScrollbar 0x1d4c9f0 is not mapped
+
+(gedit:5653): Gtk-WARNING **: GtkScrolledWindow 0x1d44880 is mapped but visible child GtkScrollbar 0x1d4cbf0 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜void Agency::sortByMake()â€™:
+Agency.cpp:438:21: error: lvalue required as left operand of assignment
+     frontLength - 1 = maxLength;
+                     ^
+Agency.cpp:439:26: error: lvalue required as left operand of assignment
+    } else backLength - 1 = maxLength;
+                          ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency[4Pmake./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Charger 55.36 1
+2009 Dodge Neon 45.25 1
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2007 Subaru Legacy 59.19 0
+2016 Subaru Outback 71.27 0
+2010 Toyota Corolla 50.36 1
+2011 Toyota Rav4 65.02 1
+2014 Toyota Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+make: Nothing to be done for `all'.
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make./Agency[4Pmakegedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency[4Pmake./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Charger 55.36 1
+2009 Dodge Neon 45.25 1
+2008 Fard Fiesta 42.48 0
+2015 Ford F150 112.83 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2007 Subaru Legacy 59.19 0
+2016 Subaru Outback 71.27 0
+2010 Toyota Corolla 50.36 1
+2011 Toyota Rav4 65.02 1
+2014 Toyoto Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmake./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+Segmentation fault (core dumped)
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+
+(gedit:5767): Gtk-WARNING **: GtkScrolledWindow 0x1c96880 is mapped but visible child GtkScrollbar 0x1c9ea30 is not mapped
+
+(gedit:5767): Gtk-WARNING **: GtkScrolledWindow 0x1c96880 is mapped but visible child GtkScrollbar 0x1c9ec30 is not mapped
+
+(gedit:5767): Gtk-WARNING **: GtkScrolledWindow 0x1c96880 is mapped but visible child GtkScrollbar 0x1c9ea30 is not mapped
+
+(gedit:5767): Gtk-WARNING **: GtkScrolledWindow 0x1c96880 is mapped but visible child GtkScrollbar 0x1c9ec30 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Charger 55.36 1
+2009 Dodge Neon 45.25 1
+2008 Fard Fiesta 42.48 0
+2015 Ford F150 112.83 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2007 Subaru Legacy 59.19 0
+2016 Subaru Outback 71.27 0
+2010 Toyota Corolla 50.36 1
+2011 Toyota Rav4 65.02 1
+2014 Toyoto Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+
+(gedit:5794): Gtk-WARNING **: GtkScrolledWindow 0x29ff880 is mapped but visible child GtkScrollbar 0x2a089f0 is not mapped
+
+(gedit:5794): Gtk-WARNING **: GtkScrolledWindow 0x29ff880 is mapped but visible child GtkScrollbar 0x2a08bf0 is not mapped
+
+(gedit:5794): Gtk-WARNING **: GtkScrolledWindow 0x29ff880 is mapped but visible child GtkScrollbar 0x2a089f0 is not mapped
+
+(gedit:5794): Gtk-WARNING **: GtkScrolledWindow 0x29ff880 is mapped but visible child GtkScrollbar 0x2a08bf0 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜void Agency::sortByMake()â€™:
+Agency.cpp:453:27: error: â€˜class Carâ€™ has no member named â€˜getmodelâ€™
+     frontModel = (*iPtr2).getmodel();
+                           ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit Agency.cppmake[K
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Charger 55.36 1
+2009 Dodge Neon 45.25 1
+2008 Fard Fiesta 42.48 0
+2015 Ford F150 112.83 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2007 Subaru Legacy 59.19 0
+2016 Subaru Outback 71.27 0
+2010 Toyota Corolla 50.36 1
+2011 Toyota Rav4 65.02 1
+2014 Toyoto Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+make: Nothing to be done for `all'.
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make./Agency[4Pmakegedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Charger 55.36 1
+2009 Dodge Neon 45.25 1
+2008 Ford Biesta 42.48 0
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2007 Subaru Legacy 59.19 0
+2016 Subaru Outback 71.27 0
+2010 Toyota Corolla 50.36 1
+2011 Toyota Rav4 65.02 1
+2014 Toyoto Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmake./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency[4Pmake./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Charger 55.36 1
+2009 Dodge Neon 45.25 1
+2008 Ford Biesta 42.48 0
+2015 Ford F150 112.83 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2007 Subaru Legacy 59.19 0
+2016 Subaru Outback 71.27 0
+2010 Toyota Corolla 50.36 1
+2011 Toyota Rav4 65.02 1
+2014 Toyoto Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+make: Nothing to be done for `all'.
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make./Agency[4Pmakegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Charger 55.36 1
+2009 Dodge Neon 45.25 1
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2007 Subaru Legacy 59.19 0
+2016 Subaru Outback 71.27 0
+2010 Toyota Corolla 50.36 1
+2011 Toyota Rav4 65.02 1
+2014 Toyoto Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+1
+National 93619
+2014 Toyoto Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ gedit [K[K[K[K[K[K./Agency[4Pmake./Agency[4Pmakegedit Agency.cpp[8P./Agencygedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜void Agency::sortByPrice()â€™:
+Agency.cpp:524:30: error: â€˜smallesValâ€™ was not declared in this scope
+    if ((*iPtr3).getPrice() < smallesVal) {
+                              ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency[4Pmake./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmake./Agency[4Pmakegedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmake./Agency[4Pmakegedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmake./Agencygedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit testDriver.cppmake[K./Agency[4Pmakegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency[4Pmake./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+National 93619
+2012 Honda CRV 85.1 0
+2008 Ford Fiesta 42.48 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2014 Toyota Tacoma 115.12 1
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6 7
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cpp
+
+(gedit:6072): Gtk-WARNING **: GtkScrolledWindow 0x1042880 is mapped but visible child GtkScrollbar 0x104aa10 is not mapped
+
+(gedit:6072): Gtk-WARNING **: GtkScrolledWindow 0x1042880 is mapped but visible child GtkScrollbar 0x104ac10 is not mapped
+
+(gedit:6072): Gtk-WARNING **: GtkScrolledWindow 0x1042880 is mapped but visible child GtkScrollbar 0x104aa10 is not mapped
+
+(gedit:6072): Gtk-WARNING **: GtkScrolledWindow 0x1042880 is mapped but visible child GtkScrollbar 0x104ac10 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+6
+National 93619
+2008 Ford Fiesta 42.48 0
+2009 Dodge Neon 45.25 1
+2010 Toyota Corolla 50.36 1
+2010 Nissan Maxima 51.68 1
+2009 Dodge Charger 55.36 1
+2007 Subaru Legacy 59.19 0
+2011 Toyota Rav4 65.02 1
+2015 Ford F150 112.83 1
+2015 Ford Fusion 90.89 0
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2012 Chevy Volt 89.03 0
+2012 Mazda CX5 86.75 1
+2013 GMC Yukon 110.43 0
+2016 Subaru Outback 71.27 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Exit program 
+7
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit testDriver.cppmake[Kgedit testDriver.cpp
+
+(gedit:6098): Gtk-WARNING **: GtkScrolledWindow 0x2332880 is mapped but visible child GtkScrollbar 0x233ab80 is not mapped
+
+(gedit:6098): Gtk-WARNING **: GtkScrolledWindow 0x2332880 is mapped but visible child GtkScrollbar 0x233ad80 is not mapped
+
+(gedit:6098): Gtk-WARNING **: GtkScrolledWindow 0x2332880 is mapped but visible child GtkScrollbar 0x233ab80 is not mapped
+
+(gedit:6098): Gtk-WARNING **: GtkScrolledWindow 0x2332880 is mapped but visible child GtkScrollbar 0x233ad80 is not mapped
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ mnake[K[K[K[Kake
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp[12P./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit testDriver.cpp[12P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+6
+National 93619
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2014 Toyota Tacoma 115.12 1
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+7
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+6
+National 93619
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+2014 Toyota Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+7
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cppmake[Kgedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+6
+National 93619
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+2014 Toyota Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+7
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+6
+National 93619
+2014 Toyota Tacoma 115.12 1
+2015 Ford F150 112.83 1
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2012 Chevy Volt 89.03 0
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2012 Honda CRV 85.1 0
+2016 Subaru Outback 71.27 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+2009 Dodge Charger 55.36 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Neon 45.25 1
+2008 Ford Fiesta 42.48 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+7
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ mkake[K[K[K[Kake
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+6
+National 93619
+2014 Toyota Tacoma 115.12 1
+2015 Ford F150 112.83 1
+2013 GMC Yukon 110.43 0
+2015 Ford Fusion 90.89 0
+2012 Chevy Volt 89.03 0
+2012 Mazda CX5 86.75 1
+2012 Honda CRV 85.1 0
+2016 Subaru Outback 71.27 0
+2011 Toyota Rav4 65.02 1
+2007 Subaru Legacy 59.19 0
+2009 Dodge Charger 55.36 1
+2010 Nissan Maxima 51.68 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Neon 45.25 1
+2008 Ford Fiesta 42.48 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+7
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜void Agency::searchByMake(char*) constâ€™:
+Agency.cpp:546:14: error: â€˜iventoryâ€™ was not declared in this scope
+  Car* iPtr = iventory;
+              ^
+Agency.cpp:549:21: error: â€˜class Carâ€™ has no member named â€˜getmakeâ€™
+   compare = (*iPtr).getmake();
+                     ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+Agency.cpp: In member function â€˜void Agency::searchByMake(char*) constâ€™:
+Agency.cpp:546:14: error: â€˜iventoryâ€™ was not declared in this scope
+  Car* iPtr = iventory;
+              ^
+make: *** [Agency.o] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Exit program 
+7
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit Agency.cppmake[Kgedit Agency.cppmake[Kgedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cpp[8P./Agency[4Pmakegedit Agency.cppmake[Kgedit testDriver.cpp[12P./Agencygedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+testDriver.cpp: In function â€˜int main()â€™:
+testDriver.cpp:67:9: error: jump to case label [-fpermissive]
+    case 8:
+         ^
+testDriver.cpp:60:11: error:   crosses initialization of â€˜char* userSearchâ€™
+     char* userSearch = new char[20];
+           ^
+testDriver.cpp:70:4: error: jump to case label [-fpermissive]
+    default:
+    ^
+testDriver.cpp:60:11: error:   crosses initialization of â€˜char* userSearchâ€™
+     char* userSearch = new char[20];
+           ^
+make: *** [Agency] Error 1
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit testDriver.cppmake[Kgedit testDriver.cpp[12P./Agency[4Pmake./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+7
+Please enter the make you would like to search for: Toyota
+^C
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmakegedit testDriver.cppmake[Kgedit testDriver.cpp[12P./Agency[4Pmakegedit Agency.cpp
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ make
+g++ -c Agency.cpp
+g++ testDriver.cpp Agency.o -o Agency
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ makegedit Agency.cpp[8P./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+7
+Please enter the make you would like to search for: Toyota
+2014 Toyota Tacoma 115.12 1
+2011 Toyota Rav4 65.02 1
+2010 Toyota Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+7
+Please enter the make you would like to search for: Mazda
+2012 Mazda CX5 86.75 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+7
+Please enter the make you would like to search for: Bla
+Could not find any matches
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+1
+National 93619
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+7
+Please enter the make you would like to search for: Ford
+2015 Ford Fusion 90.89 0
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Charger 55.36 1
+2009 Dodge Neon 45.25 1
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2007 Subaru Legacy 59.19 0
+2016 Subaru Outback 71.27 0
+2010 Toyota Corolla 50.36 1
+2011 Toyota Rav4 65.02 1
+2014 Toyota Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+6
+National 93619
+2014 Toyota Tacoma 115.12 1
+2015 Ford F150 112.83 1
+2013 GMC Yukon 110.43 0
+2015 Ford Fusion 90.89 0
+2012 Chevy Volt 89.03 0
+2012 Mazda CX5 86.75 1
+2012 Honda CRV 85.1 0
+2016 Subaru Outback 71.27 0
+2011 Toyota Rav4 65.02 1
+2007 Subaru Legacy 59.19 0
+2009 Dodge Charger 55.36 1
+2010 Nissan Maxima 51.68 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Neon 45.25 1
+2008 Ford Fiesta 42.48 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+8
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmake./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+1
+National 93619
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+2
+2014 Toyota Tacoma 115.12 1
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Charger 55.36 1
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+3
+2014 Toyota Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+4
+what car would you like to calculate? 3
+how many days? 7
+636.23
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+7 6 5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Charger 55.36 1
+2009 Dodge Neon 45.25 1
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2007 Subaru Legacy 59.19 0
+2016 Subaru Outback 71.27 0
+2010 Toyota Corolla 50.36 1
+2011 Toyota Rav4 65.02 1
+2014 Toyota Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+6
+National 93619
+2014 Toyota Tacoma 115.12 1
+2015 Ford F150 112.83 1
+2013 GMC Yukon 110.43 0
+2015 Ford Fusion 90.89 0
+2012 Chevy Volt 89.03 0
+2012 Mazda CX5 86.75 1
+2012 Honda CRV 85.1 0
+2016 Subaru Outback 71.27 0
+2011 Toyota Rav4 65.02 1
+2007 Subaru Legacy 59.19 0
+2009 Dodge Charger 55.36 1
+2010 Nissan Maxima 51.68 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Neon 45.25 1
+2008 Ford Fiesta 42.48 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+7
+Please enter the make you would like to search for: Toyota
+2014 Toyota Tacoma 115.12 1
+2011 Toyota Rav4 65.02 1
+2010 Toyota Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+8
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ ./Agency[4Pmake./Agency
+Enter file name: carData
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+1
+National 93619
+2014 Toyota Tacoma 115.12 1
+2012 Honda CRV 85.1 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2016 Subaru Outback 71.27 0
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2008 Ford Fiesta 42.48 0
+2009 Dodge Charger 55.36 1
+2012 Chevy Volt 89.03 0
+2007 Subaru Legacy 59.19 0
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+2
+2014 Toyota Tacoma 115.12 1
+2009 Dodge Neon 45.25 1
+2011 Toyota Rav4 65.02 1
+2012 Mazda CX5 86.75 1
+2015 Ford F150 112.83 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Charger 55.36 1
+2010 Nissan Maxima 51.68 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+3
+2014 Toyota Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+4
+what car would you like to calculate? 3
+how many days? 2
+181.78
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+4
+what car would you like to calculate? 5
+how many days? 7
+316.75
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+6 5
+National 93619
+2012 Chevy Volt 89.03 0
+2009 Dodge Charger 55.36 1
+2009 Dodge Neon 45.25 1
+2015 Ford F150 112.83 1
+2008 Ford Fiesta 42.48 0
+2015 Ford Fusion 90.89 0
+2013 GMC Yukon 110.43 0
+2012 Honda CRV 85.1 0
+2012 Mazda CX5 86.75 1
+2010 Nissan Maxima 51.68 1
+2007 Subaru Legacy 59.19 0
+2016 Subaru Outback 71.27 0
+2010 Toyota Corolla 50.36 1
+2011 Toyota Rav4 65.02 1
+2014 Toyota Tacoma 115.12 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+6
+National 93619
+2014 Toyota Tacoma 115.12 1
+2015 Ford F150 112.83 1
+2013 GMC Yukon 110.43 0
+2015 Ford Fusion 90.89 0
+2012 Chevy Volt 89.03 0
+2012 Mazda CX5 86.75 1
+2012 Honda CRV 85.1 0
+2016 Subaru Outback 71.27 0
+2011 Toyota Rav4 65.02 1
+2007 Subaru Legacy 59.19 0
+2009 Dodge Charger 55.36 1
+2010 Nissan Maxima 51.68 1
+2010 Toyota Corolla 50.36 1
+2009 Dodge Neon 45.25 1
+2008 Ford Fiesta 42.48 0
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+7
+Please enter the make you would like to search for: Toyota
+2014 Toyota Tacoma 115.12 1
+2011 Toyota Rav4 65.02 1
+2010 Toyota Corolla 50.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+7
+Please enter the make you would like to search for: Dodge
+2009 Dodge Neon 45.25 1
+2009 Dodge Charger 55.36 1
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+7
+Please enter the make you would like to search for: bla
+Could not find any matches
+===========================================================
+Please choose one of the following options: 
+1) Print all information
+2) Print information of available cars
+3) Print information of most expensive car
+4) Estimate cost of certain car over certain number of days
+5) Sort all cars alphabetically by make
+6) Sort all cars numerically by price
+7) Search for information on a specific make
+8) Exit program 
+8
+Exiting program
+]0;alex@ubuntu: ~/cs202/project6alex@ubuntu:~/cs202/project6$ exit
+Script done on Sun 06 Mar 2016 08:01:33 PM PST

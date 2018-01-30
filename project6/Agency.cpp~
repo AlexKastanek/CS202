@@ -1,0 +1,573 @@
+#include <iostream>
+#include <fstream>
+#include "Agency.h"
+
+using namespace std;
+
+Car::Car() { //constructor that intializes and allocates make and model to default values, the other private members are of types that already have default values
+
+	make = new char[20];
+	model = new char[20];
+
+}
+
+Car::Car(char* newMake, char* newModel, int newYear, float newPrice, bool newAvailable) { //constructor that initializes make and model and sets them to specified arguments
+
+	make = new char[20];
+	model = new char[20];
+
+	char* maPtr = make;
+	char* moPtr = model;
+	char* nmaPtr = newMake;
+	char* nmoPtr = newModel;
+
+	for (int i = 0; i < 20; i++) { //loop that copies the arguments for make and model into make and model
+		*maPtr = *nmaPtr;
+		maPtr++;
+		nmaPtr++;
+		*moPtr = *nmoPtr;
+		moPtr++;
+		nmoPtr++;
+	}
+	maPtr = make;
+	moPtr = model;
+	nmaPtr = newMake;
+	nmoPtr = newModel;
+
+	year = newYear;
+
+	price = newPrice;
+
+	available = newAvailable;
+
+}
+
+Car::Car(const Car &data) { //constructor that intializes members of this object to the same members of another object
+
+	make = new char[20];
+	model = new char[20];
+
+	char* maPtr = make;
+	char* moPtr = model;
+	char* dmaPtr = data.make;
+	char* dmoPtr = data.model;
+
+	for (int i = 0; i < 20; i++) { //loop that copies the members make and model from another object into this object
+		*maPtr = *dmaPtr;
+		maPtr++;
+		dmaPtr++;
+		*moPtr = *dmoPtr;
+		moPtr++;
+		dmoPtr++;
+	}
+	maPtr = make;
+	moPtr = model;
+	dmaPtr = data.make;
+	dmoPtr = data.model;
+
+	year = data.year;
+
+	price = data.price;
+
+	available = data.available;
+
+}
+
+Car::~Car() { //destructor that deallocates the memory used for make and model
+
+	delete[] make;
+	make = NULL;
+	delete[] model;
+	model = NULL;
+
+}
+
+void Car::copy(Car data) { //function that copies one object into another
+
+	delete[] make; //deallocates the memory used for make and model in the object
+	make = NULL;
+	delete[] model;
+	model = NULL;
+
+	make = new char[20]; //reallocates memory for make and model to hold new values
+	model = new char[20];
+
+	char* maPtr = make;
+	char* moPtr = model;
+	char* dmaPtr = data.make;
+	char* dmoPtr = data.model;
+
+	for (int i = 0; i < 20; i++) { //loop that copies values of argument's make and model into object's make and model
+		*maPtr = *dmaPtr;
+		maPtr++;
+		dmaPtr++;
+		*moPtr = *dmoPtr;
+		moPtr++;
+		dmoPtr++;
+	}
+	maPtr = make;
+	moPtr = model;
+	dmaPtr = data.make;
+	dmoPtr = data.model;
+
+	year = data.year;
+
+	price = data.price;
+
+	available = data.available;
+
+}
+
+void Car::print() const { //prints all data in one car object
+
+	cout << year << " ";
+
+	cout << make << " ";
+	
+	cout << model << " ";
+
+	cout << price << " ";
+
+	cout << available << endl;
+
+}
+
+char* Car::getMake() const { //returns make
+
+	return make;
+
+}
+
+char* Car::getModel() const { //returns model
+
+	return model;
+
+}
+
+int Car::getYear() const { //returns year
+
+	return year;
+
+}
+
+float Car::getPrice() const { //returns price
+
+	return price;
+
+}
+
+bool Car::getAvailable() const { //returns available
+
+	return available;
+
+}
+
+void Car::setMake(char* newMake) { //sets make to specified argument
+
+	delete[] make; //deallocates make
+	make = NULL;
+
+	make = new char[20]; //reallocates make
+
+	char* mPtr = make;
+	char* nPtr = newMake;
+
+	for (int i = 0; i < 20; i++) { //copies argument into make
+		*mPtr = *nPtr;
+		mPtr++;
+		nPtr++;
+	}
+	mPtr = make;
+	nPtr = newMake;
+
+}
+
+void Car::setModel(char* newModel) { //sets model to specified argument
+
+	delete[] model; //deallocates model
+	model = NULL;
+
+	model = new char[20]; //reallocates model
+
+	char* mPtr = model;
+	char* nPtr = newModel;
+
+	for (int i = 0; i < 20; i++) { //copies argument into model
+		*mPtr = *nPtr;
+		mPtr++;
+		nPtr++;
+	}
+	mPtr = model;
+	nPtr = newModel;
+
+}
+
+void Car::setYear(int newYear) { //sets year to specified argument
+
+	year = newYear;
+
+}
+
+void Car::setPrice(float newPrice) { //sets price to specified argument
+
+	price = newPrice;
+
+}
+
+void Car::setAvailable(bool newAvailable) { //sets available to specified argument
+
+	available = newAvailable;
+
+}
+
+Agency::Agency() { //constructor that initializes and allocates arrays to default values
+
+	name = new char[20];
+	zipcode = new int[5];
+	inventory = new Car[15];
+
+}
+
+Agency::Agency(const Agency &data) { //constructor that allocates arrays and initializes the values in them to the same values as the specified object
+
+	char* nPtr = name;
+	int* zPtr = zipcode;
+	Car* iPtr = inventory;
+	char* dnPtr = data.name;
+	int* dzPtr = data.zipcode;
+	Car* diPtr = data.inventory;
+
+	for (int i = 0; i < 20; i++) {
+		*nPtr = *dnPtr;
+		nPtr++;
+		dnPtr++;
+	}
+	nPtr = name;
+	dnPtr = data.name;
+
+	for (int i = 0; i < 5; i++) {
+		*zPtr = *dzPtr;
+		zPtr++;
+		dzPtr++;
+	}
+	zPtr = zipcode;
+	dzPtr = data.zipcode;
+
+	for (int i = 0; i < 15; i++) {
+		(*iPtr).copy(*diPtr);
+		iPtr++;
+		diPtr++;
+	}
+	iPtr = inventory;
+	diPtr = data.inventory;
+
+}
+
+Agency::~Agency() { //destructor that deallocates all arrays
+
+	delete[] name;
+	name = NULL;
+	delete[] zipcode;
+	zipcode = NULL;
+	delete[] inventory;
+	inventory = NULL;
+
+}
+
+void Agency::readInData(char* fileName) { //function that gets input from a file passed as an argument
+
+	ifstream fin;
+	fin.open(fileName);
+
+	fin >> name;
+
+	int* zPtr = zipcode;
+	char* tempZip = new char[5];
+	fin >> tempZip; //temp array holds values of zip as chars
+	char* tPtr = tempZip;
+	for (int i = 0; i < 5; i++) { //converts values in temp array to integers and stores them in the zip code int array
+		*zPtr = ((int) *tPtr) - 48;
+		zPtr++;
+		tPtr++;
+	}
+	zPtr = zipcode;
+	tPtr = tempZip;
+	
+	delete[] tempZip;
+	tempZip = NULL;
+	tPtr = NULL;
+
+	Car* iPtr = inventory;
+	for (int i = 0; i < 15; i++) { //loop that sets all of the members of every object
+		char* make = new char[20];
+		char* model = new char[20];
+		int year;
+		float price;
+		bool available;
+
+		fin >> year;
+		fin >> make;
+		fin >> model;
+		fin >> price;
+		fin >> available;
+
+		(*iPtr).setMake(make);
+		(*iPtr).setModel(model);
+		(*iPtr).setYear(year);
+		(*iPtr).setPrice(price);
+		(*iPtr).setAvailable(available);
+
+		delete[] make;
+		make = NULL;
+		delete[] model;
+		model = NULL;
+
+		iPtr++;
+	}
+	iPtr = inventory;
+
+}
+
+void Agency::print() const { //prints all of the data in the agency object
+
+	cout << name << " ";
+
+	int* zptr = zipcode;
+	for (int i = 0; i < 5; i++) {
+		cout << *zptr;
+		zptr++;
+	}
+	zptr = zipcode;
+
+	cout << endl;
+
+	Car* iPtr = inventory;
+	for (int i = 0; i < 15; i++) {
+		(*iPtr).print();
+		iPtr++;
+	}
+	iPtr = inventory;
+
+}
+
+void Agency::printAvailableCars() const { //prints only the car objects in which available is equal to true
+
+	Car* iPtr = inventory;
+	for (int i = 0; i < 15; i++) {
+		if ((*iPtr).getAvailable() == 1) {
+			(*iPtr).print();
+		}
+		iPtr++;
+	}
+	iPtr = inventory;
+
+}
+
+void Agency::findMostExpensive() const { //prints the car object with the highest price member
+
+	Car* iPtr = inventory;
+	float mostExp = (*iPtr).getPrice();
+	iPtr++;
+	for (int i = 1; i < 15; i++) {
+		if ((*iPtr).getPrice() > mostExp) {
+			mostExp = (*iPtr).getPrice();
+		}
+		iPtr++;
+	}
+	iPtr = inventory;
+
+	for (int i = 0; i < 15; i++) {
+		if ((*iPtr).getPrice() == mostExp) {
+			(*iPtr).print();
+		}
+		iPtr++;
+	}
+	iPtr = inventory;
+
+}
+
+float Agency::estimateCost(int carNum, int dayNum) const { //estimates the cost of a car object's price member over a number of days, where the car number and day number are passed as arguments
+
+	float cost;
+
+	Car* iPtr = inventory;
+	for (int i = 0; i < carNum - 1; i++) {
+		iPtr++;
+	}
+
+	cost = dayNum * (*iPtr).getPrice();
+
+	return cost;
+
+}
+
+void Agency::sortByMake() { //sorts every Car in the Agency by it's make using a bubble sort
+
+	Car temp;
+	int compVal = 0, length = 1, lengthM = 1, frontLength = 0, frontMLength = 0, backMLength = 0, backLength = 0, maxLength = 1, maxMLength = 1;
+	char* frontMake = new char[20];
+	char* backMake = new char[20];
+	char* frontModel = new char[20];
+	char* backModel = new char[20];
+	bool sort = true;
+
+	Car* iPtr1 = inventory;
+	Car* iPtr2 = inventory;
+	//temp.copy(*iPtr1);
+	while(sort) { //loops as long as there has been a sort
+		sort = false;
+		iPtr1 = inventory;
+		iPtr2 = inventory;
+		for (int i = 0; i < 14; i++) { //loops for the number of inventories - 1
+			if (i == 0) { //if on the first loop, increments second iPtr
+				iPtr2++;
+			}
+			frontMake = (*iPtr2).getMake(); //frontMake gets the make in the greater position
+			backMake = (*iPtr1).getMake(); //backMake gets the make in the lesser position
+			char* fPtr = frontMake;
+			while (*fPtr != '\0') { //loop that determines the length of frontMake
+				frontLength++;
+				fPtr++;
+			}
+			fPtr = frontMake;
+			char* bPtr = backMake;
+			while (*bPtr != '\0') { //loop that determines the length of backMake
+				backLength++;
+				bPtr++;
+			}
+			bPtr = backMake;
+			if (frontLength < backLength) { //compares the lengths of the two makes
+				maxLength = frontLength - 1; //maxLength gets the lesser of the two lengths - 1 so the last character can still be evaluated
+			} else maxLength = backLength - 1;
+			while ((*bPtr == *fPtr) && (length != maxLength)) { //loops until the characters in each make are not equal to each other or until the maxLength has been reached. This checks to see if the words are the same or similar to each other.
+				length++;
+				fPtr++;
+				bPtr++;
+			} //pointers are incremented up to the point where the characters they are pointing to are different
+			if (*bPtr > *fPtr) { //compares the two characters and swaps the inventories if the first make is greater than the second make
+				temp.copy(*iPtr1); 
+				(*iPtr1).copy(*iPtr2);
+				(*iPtr2).copy(temp);
+				sort = true;
+			} else if (*bPtr == *fPtr) { //if the two characters are equal, then the two makes must be equal, and the whole process above is then repeated for the model
+				frontModel = (*iPtr2).getModel();
+				backModel = (*iPtr1).getModel();
+				char* fmPtr = frontModel;
+				while (*fmPtr != '\0') {
+					frontMLength++;
+					fmPtr++;
+				}
+				fmPtr = frontModel;
+				char* bmPtr = backModel;
+				while (*bmPtr != '\0') {
+					backMLength++;
+					bmPtr++;
+				}
+				bmPtr = backModel;
+				if (frontMLength < backMLength) {
+					maxMLength = frontMLength - 1;
+				} else maxMLength = backMLength - 1;
+				while ((*bmPtr == *fmPtr) && (lengthM != maxMLength)) {
+					lengthM++;
+					fmPtr++;
+					bmPtr++;
+				}
+				if (*bmPtr > *fmPtr) {
+					temp.copy(*iPtr1);
+					(*iPtr1).copy(*iPtr2);
+					(*iPtr2).copy(temp);
+					sort = true;
+				}
+				fmPtr = frontModel;
+				bmPtr = backModel;
+			}
+			//cout << (*iPtr1).getMake() << endl; debugging
+			//cout << (*iPtr2).getMake() << endl;
+			fPtr = frontMake;
+			bPtr = backMake;
+			fPtr = NULL;
+			bPtr = NULL;
+			iPtr1++;
+			iPtr2++;
+		}
+		//cout << endl; debugging
+		//frontMake = (*iPtr2).getMake(); error checking
+		//backMake = (*iPtr1).getMake();
+		iPtr1 = inventory;
+		iPtr2 = inventory;
+	}
+	iPtr1 = NULL;
+	iPtr2 = NULL;
+
+	/*delete[] frontMake; error checking
+	frontMake = NULL;
+	delete[] backMake;
+	backMake = NULL;*/
+
+}
+
+void Agency::sortByPrice() { //sorts every Car in the Agency object by price using a selection sort
+
+	Car temp;
+	float greatestVal;
+
+	Car* iPtr1 = inventory;
+	Car* iPtr2 = inventory;
+	Car* iPtr3 = inventory;
+	for (int i = 0; i < 14; i++) { //goes through the array of inventories and gets the highest price and swaps the current price with the highest one
+		greatestVal = (*iPtr1).getPrice();
+		iPtr2 = iPtr1;
+		iPtr3 = iPtr1;
+		iPtr3++;
+		for (int j = i + 1; j < 15; j++) { //if the current price is higher than the highest price, the highest price is now the current price
+			if ((*iPtr3).getPrice() > greatestVal) {
+				greatestVal = (*iPtr3).getPrice();
+				iPtr2 = iPtr3;
+			}
+			iPtr3++;
+		}
+		iPtr3 = iPtr2;
+		temp.copy(*iPtr1); //swaps the two prices
+		(*iPtr1).copy(*iPtr2);
+		(*iPtr2).copy(temp);
+		iPtr1++;
+	}
+	iPtr1 = inventory;
+	iPtr2 = inventory;
+	iPtr3 = inventory;
+
+}
+
+void Agency::searchByMake(char* source) const {
+
+	bool match = true;
+	int totalMatch = 0;
+
+	Car* iPtr = inventory;
+	for (int i = 0; i < 15; i++) { //checks every make in the array of inventories for the passed argument
+		char* compare = new char[20];
+		compare = (*iPtr).getMake(); 
+		match = true;
+		char* cPtr = compare;
+		char* sPtr = source;
+		while (match && *sPtr != '\0') { //loop that compares the individual characters in each array until the two characters don't match or until it reaches a null character
+			match = false;
+			if (*cPtr == *sPtr) {
+				match = true;
+			}
+			cPtr++;
+			sPtr++;
+		}
+		if (match) { //if a null character is reached, match stays true, and this if statement checks to see if match is true. If it is, it prints the inventory and increments the amount of matches
+			(*iPtr).print();
+			totalMatch++;
+		}
+		iPtr++;
+	}
+	iPtr = inventory;
+
+	if (totalMatch < 1) { //if there weren't any matches, prints it couldn't find any matches
+		cout << "Could not find any matches" << endl;
+	}
+
+}

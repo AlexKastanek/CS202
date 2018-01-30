@@ -1,0 +1,2 @@
+I didn’t have much trouble with this project at all. After doing stacks and queues, lists seems relatively straightforward and I applied a lot of what I learned from queues and lists into this. For this project, we had to implement a list class. We only had to do one array based implementation and one node based. The only problem I have is with the node based implementation in which if i try to insert before, i end up getting an error, but it still outputs correctly. Strange. If I had more time I would fix this error.
+

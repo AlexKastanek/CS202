@@ -1,0 +1,24 @@
+Script started on Wed 04 May 2016 01:53:54 AM PDT
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+]0;alex@ubuntu: ~/cs202/project12alex@ubuntu:~/cs202/project12$ make
+g++    -c -o inheritance.o inheritance.cpp
+g++ mainDriver.cpp inheritance.o -o test
+]0;alex@ubuntu: ~/cs202/project12alex@ubuntu:~/cs202/project12$ makeexitgedit inheritance.cpp[2Pdocumentation./test[K
+The perimeter of a rectangle with length: 2.1 and width: 3.2 is: 10.6
+The perimeter of a circle with radius: 5.5 is: 34.5575
+The surface area of a cylinder with radius: 2.5 and height: 3.1 is: 87.9646
+The surface area of a rectanglular prism with length: 4.2, width: 2.3, and height: 1.8 is: 42.72
+The perimeter of a circle with radius: 1 is: 6.28319
+The surface area of a rectanglular prism with length: 3, width: 3.1, and height: 3.2 is: 57.64
+
+The area rectangle with length: 2.1 and width: 3.2 is: 6.72
+The area circle with radius: 5.5 is: 95.0332
+The volume of a cylinder with radius: 2.5 and height: 3.1 is: 60.8684
+The volume of a rectanglular prism with length: 4.2, width: 2.3, and height: 1.8 is: 17.388
+The area circle with radius: 1 is: 3.14159
+The volume of a rectanglular prism with length: 3, width: 3.1, and height: 3.2 is: 29.76
+]0;alex@ubuntu: ~/cs202/project12alex@ubuntu:~/cs202/project12$ exit
+Script done on Wed 04 May 2016 01:54:21 AM PDT

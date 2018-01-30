@@ -1,0 +1,118 @@
+Script started on Wed 13 Apr 2016 08:11:22 PM PDT
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+]0;alex@ubuntu: ~/cs202/project9alex@ubuntu:~/cs202/project9$ make
+g++ -c queue1.cpp
+g++ mainDriver.cpp queue1.o -o queue
+]0;alex@ubuntu: ~/cs202/project9alex@ubuntu:~/cs202/project9$ makeexitgedit queue2.cpp[9P./queue
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+12345678910
+2345678910
+345678910
+45678910
+5678910
+678910
+67891011
+6789101112
+678910111213
+67891011121314
+6789101112131415
+6789101112131415
+6789101112131415
+6789101112131415
+6789101112131415
+6789101112131415
+789101112131415
+89101112131415
+9101112131415
+101112131415
+1112131415
+12131415
+131415
+131415
+]0;alex@ubuntu: ~/cs202/project9alex@ubuntu:~/cs202/project9$ make
+g++ -c queue2.cpp
+g++ mainDriver.cpp queue2.o -o queue
+]0;alex@ubuntu: ~/cs202/project9alex@ubuntu:~/cs202/project9$ make./queue[3Pmake./queue
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+12345678910
+2345678910
+345678910
+45678910
+5678910
+678910
+67891011
+6789101112
+678910111213
+67891011121314
+6789101112131415
+78910111213141516
+891011121314151617
+9101112131415161718
+10111213141516171819
+11121314151617181920
+121314151617181920
+1314151617181920
+14151617181920
+151617181920
+1617181920
+17181920
+181920
+181920
+]0;alex@ubuntu: ~/cs202/project9alex@ubuntu:~/cs202/project9$ ./queue[3Pmake
+g++ -c queue3.cpp
+g++ mainDriver.cpp queue3.o -o queue
+]0;alex@ubuntu: ~/cs202/project9alex@ubuntu:~/cs202/project9$ make./queue
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+12345678910
+2345678910
+345678910
+45678910
+5678910
+678910
+67891011
+6789101112
+678910111213
+67891011121314
+6789101112131415
+678910111213141516
+67891011121314151617
+6789101112131415161718
+678910111213141516171819
+67891011121314151617181920
+7891011121314151617181920
+891011121314151617181920
+91011121314151617181920
+1011121314151617181920
+11121314151617181920
+121314151617181920
+1314151617181920
+1314151617181920
+]0;alex@ubuntu: ~/cs202/project9alex@ubuntu:~/cs202/project9$ exit
+Script done on Wed 13 Apr 2016 08:13:52 PM PDT

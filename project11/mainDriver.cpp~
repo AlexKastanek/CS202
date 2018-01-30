@@ -1,0 +1,141 @@
+#include <iostream>
+#include <fstream>
+#include "listarray.h"
+#include "listnode.h"
+
+using namespace std;
+
+void sort(int*, int);
+
+bool search(const int*, int, int);
+
+int fibonacci(int);
+
+int main() {
+
+	int entrySearch, entryFib;
+	int* data = new int[10];
+	ListNode unsorted;
+	ListArray sorted(10);
+	ifstream fin;
+
+	fin.open("data");
+
+	for (int i = 0; i < 10; i++) {
+		fin >> data[i];
+	}
+
+	//debugging
+	/*for (int i = 0; i < 10; i++) {
+		cout << data[i] << " ";
+	}*/ 
+
+	//cout << endl;
+
+	for (int i = 0; i < 10; i++) {
+		unsorted.insertAfter(data[i]);
+	}
+
+	//cout << unsorted << endl; debugging
+
+	sort(data, 10);
+
+	//debugging
+	/*for (int i = 0; i < 10; i++) {
+		cout << data[i] << " ";
+	}
+
+	cout << endl;*/
+
+	for (int i = 0; i < 10; i++) {
+		sorted.insertAfter(data[i]);
+	}
+
+	//cout << sorted << endl; debugging
+
+	cout << "Please enter the number you would like to search for: ";
+
+	cin >> entrySearch;
+
+	if (search(data, 10, entrySearch)) {
+		cout << "This number exists" << endl;
+	} else cout << "This number does not exist" << endl;
+
+	cout << "Please enter the number you would like to calculate in a Fibonacci sequence: ";
+
+	cin >> entryFib;
+
+	cout << fibonacci(entryFib) << endl;
+
+	return 0;
+
+}
+
+void sort(int* source, int num) {
+
+	bool swap = true;
+
+	while (swap) {
+		swap = false;
+		for (int i = 0; i < (num - 1); i++) {
+			if (source[i] > source[i + 1]) {
+				int temp = source[i];
+				source[i] = source[i + 1];
+				source[i + 1] = temp;
+				swap = true;
+			}
+		}
+	}
+}
+
+bool search(const int* source, int num, int val) {
+
+	int divNum = num / 2;
+
+	/*if ((num % 2) == 0) {
+		divNum = num / 2;
+	} else divNum = (num / 2) + 1;*/
+	//cout << source[divNum] << endl;
+
+	if (source[divNum] == val) {
+		return true;
+	}
+
+	if ((num / 2) == 0) {
+		return false;
+	}
+
+	int* divSource = new int[divNum];
+
+	if (source[divNum] > val) {
+		for (int i = 0; i < divNum; i++) {
+			divSource[i] = source[i];
+		}
+	} else {
+		int j = 0;
+		for (int i = divNum; i < num; i++) {
+			divSource[j] = source[i];
+			j++;
+		}
+		divNum = j;
+	}
+
+	return search(divSource, divNum, val);
+
+}
+
+int fibonacci(int val) {
+
+	if (val == 0) {
+		return 0;
+	} else if (val == 1) {
+		return 1;
+	} else return fibonacci(val - 1) + fibonacci(val - 2);
+
+}
+
+
+
+
+
+

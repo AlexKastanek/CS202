@@ -1,0 +1,29 @@
+Script started on Wed 27 Apr 2016 09:01:12 PM PDT
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+]0;alex@ubuntu: ~/cs202/project11alex@ubuntu:~/cs202/project11$ make
+g++ mainDriver.cpp listarray.o listnode.o -o test
+]0;alex@ubuntu: ~/cs202/project11alex@ubuntu:~/cs202/project11$ ./test
+Please enter the number you would like to search for: 7
+This number exists
+Please enter the number you would like to calculate in a Fibonacci sequence: 7
+13
+]0;alex@ubuntu: ~/cs202/project11alex@ubuntu:~/cs202/project11$ ./tewst[K[Ks[K[Kst
+Please enter the number you would like to search for: 14
+This number does not exist
+Please enter the number you would like to calculate in a Fibonacci sequence: 14
+377
+]0;alex@ubuntu: ~/cs202/project11alex@ubuntu:~/cs202/project11$ ./test
+Please enter the number you would like to search for: 10
+This number does not exist
+Please enter the number you would like to calculate in a Fibonacci sequence: 10
+55
+]0;alex@ubuntu: ~/cs202/project11alex@ubuntu:~/cs202/project11$ ./test
+Please enter the number you would like to search for: 5
+This number exists
+Please enter the number you would like to calculate in a Fibonacci sequence: 5
+5
+]0;alex@ubuntu: ~/cs202/project11alex@ubuntu:~/cs202/project11$ exit
+Script done on Wed 27 Apr 2016 09:02:04 PM PDT

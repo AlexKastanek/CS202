@@ -1,0 +1,80 @@
+#include <iostream>
+#include <fstream>
+#include "Agency.h"
+
+using namespace std;
+
+int main() {
+
+	Agency inv, sortMake, sortPrice;
+	char* fileName = new char[20];
+	char* userSearch;
+	int carNum, dayNum, userChoice;
+
+	cout << "Enter file name: ";
+	cin >> fileName;
+
+	inv.readInData(fileName);
+	sortMake.readInData(fileName);
+	sortPrice.readInData(fileName);
+
+	do {
+		cout << "===========================================================" << endl;
+		cout << "Please choose one of the following options: " << endl;
+		cout << "1) Print all information" << endl;
+		cout << "2) Print information of available cars" << endl;
+		cout << "3) Print information of most expensive car" << endl;
+		cout << "4) Estimate cost of certain car over certain number of days" << endl;
+		cout << "5) Sort all cars alphabetically by make" << endl;
+		cout << "6) Sort all cars numerically by price" << endl;
+		cout << "7) Search for information on a specific make" << endl;
+		cout << "8) Exit program " << endl;
+		cin >> userChoice;
+
+		switch (userChoice) {
+			case 1:
+				inv.print();
+			break;
+			case 2:
+				inv.printAvailableCars();
+			break;
+			case 3:
+				inv.findMostExpensive();
+			break;
+			case 4:
+				cout << "what car would you like to calculate? ";
+				cin >> carNum;
+				cout << "how many days? ";
+				cin >> dayNum;
+				cout << inv.estimateCost(carNum, dayNum) << endl;
+			break;
+			case 5:
+				sortMake.sortByMake();
+				sortMake.print();
+			break;
+			case 6:
+				sortPrice.sortByPrice();
+				sortPrice.print();
+			break;
+			case 7:
+				userSearch = new char[20];
+				cout << "Please enter the make you would like to search for: ";
+				cin >> userSearch;
+				inv.searchByMake(userSearch);
+				delete[] userSearch;
+				userSearch = NULL;
+			break;
+			case 8:
+				cout << "Exiting program" << endl;
+			break;
+			default:
+				cout << "Invalid entry" << endl;
+				userChoice = 0;
+		}
+	} while (userChoice != 8);
+
+	delete[]fileName;
+	fileName = NULL;
+
+	return 0;
+}

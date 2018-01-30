@@ -1,0 +1,139 @@
+#include <iostream>
+#include <fstream>
+#include <cmath>
+#include "inheritance.h"
+
+using namespace std;
+
+Rectangle::Rectangle(float a, float b) {
+
+	length = a;
+
+	width = b;
+
+	isThreeDimensional = false;
+
+	cout << "Rectangle created" << endl;
+
+}
+
+float Rectangle::calculateAreaOrVolume() {
+
+	return (length * width);
+
+}
+
+float Rectangle::calculatePerimeterOrSurfaceArea() {
+
+	return (2 * (length + width));
+
+}
+
+void Rectangle::print() {
+
+	cout << "rectangle with length: " << length << " and width: " << width;
+
+	return;
+
+}
+
+RectangularPrism::RectangularPrism(float a, float b, float c) {
+
+	length = a;
+
+	width = b;
+
+	height = c;
+
+	isThreeDimensional = true;
+
+	cout << "Rectangular Prism created" << endl;
+
+}
+
+float RectangularPrism::calculateAreaOrVolume() {
+
+	return (length * width * height);
+
+}
+
+float RectangularPrism::calculatePerimeterOrSurfaceArea() {
+
+	return (2 * ((length * width) + (length * height) + (width * height)));
+
+}
+
+void RectangularPrism::print() {
+
+	cout << "rectanglular prism with length: " << length << ", width: " << width << ", and height: " << height;
+
+	return;
+
+}
+
+Circle::Circle(float a) {
+
+	radius = a;
+
+	isThreeDimensional = false;
+
+	cout << "Circle created" << endl;
+
+}
+
+float Circle::calculateAreaOrVolume() {
+
+	return (M_PI * (radius * radius));
+
+}
+
+float Circle::calculatePerimeterOrSurfaceArea() {
+
+	return (2 * M_PI * radius);
+
+}
+
+void Circle::print() {
+
+	cout << "circle with radius: " << radius;
+
+	return;
+
+}
+
+Cylinder::Cylinder(float a, float b) {
+
+	radius = a;
+
+	height = b;
+
+	isThreeDimensional = true;
+
+	cout << "Cylinder created" << endl;
+
+}
+
+float Cylinder::calculateAreaOrVolume() {
+
+	return (M_PI * (radius * radius) * height);
+
+}
+
+float Cylinder::calculatePerimeterOrSurfaceArea() {
+
+	return ((2 * M_PI * radius * height) + (2 * M_PI * (radius * radius)));
+
+}
+
+void Cylinder::print() {
+
+	cout << "cylinder with radius: " << radius << " and height: " << height;
+
+	return;
+
+}
+
+
+
+
+

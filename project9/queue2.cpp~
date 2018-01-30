@@ -1,0 +1,216 @@
+#include <iostream>
+#include <fstream>
+#include "queue.h"
+
+using namespace std;
+
+Queue::Queue(int a) { //default constructor
+
+	max = a;
+	front = 0;
+	rear = -1;
+	data = new int[max];
+
+}
+
+Queue::Queue(const Queue& source) { //copy constructor
+
+	max = source.max; //setting each indivdual member equal to the source
+	front = source.front;
+	rear = source.rear;
+	data = new int[max];
+
+	int cursor = front; //cursor to start from the front
+	int index; //index to stay in bounds of the array
+
+	while (cursor != rear) { //loop that sets each data member to the source's
+		index = cursor % max; //index gets a number from 0 - max depending on what cursor is
+		data[index] = source.data[index];
+		cursor++; 
+	}
+
+	index = cursor % max;
+
+	data[index] = source.data[index];
+
+}
+
+Queue::~Queue() { //destructor
+
+	clear();
+	delete[] data;
+	data = NULL;
+
+}
+
+Queue& Queue::operator=(const Queue& source) { //copies one queue into the calling object, works exactly like the copy constructor but it clears the array and deallocates the memory first
+
+	clear();
+	delete[] data;
+	data = NULL;
+
+	max = source.max;
+	front = source.front;
+	rear = source.rear;
+	data = new int[max];
+
+	int cursor = front;
+	int index;
+
+	while (cursor != rear) {
+		index = cursor % max;
+		data[index] = source.data[index];
+		cursor++;
+	}
+
+	index = cursor % max;
+
+	data[index] = source.data[index];
+
+	return *this;
+
+}
+
+bool Queue::enqueue(int item) { //adds a value to the queue, wraps to the beginning of the array if the queue is full
+
+	if (full()) { //if queue is full, data stored in front is eliminated and front is incremented
+		data[front] = 0;
+		front++;
+	}
+
+	int index; //index to keep the array in bounds
+
+	rear++; //rear is incremented, even if the array is full
+
+	index = rear % max; //index is rear modulo max, which allows the queue to stay within the bounds of the array and wrap. If max is 7, for example, 0 mod 7 is 0 and so is 7 mod 7 as well as 14 mod 7. It keeps wrapping no matter how high rear or front get
+
+	data[index] = item; //item is stored in the data array at position index
+
+	return true;
+
+}
+
+bool Queue::dequeue(int& item) {
+
+	if (empty()) { //if the queue is empty, returns false
+		return false;
+	}
+
+	int index; //index to keep array in bounds
+
+	index = front % max; //index gets front's array position
+
+	item = data[index]; //item gets what is currently stored in front
+
+	data[index] = 0; //the value in front is eliminated
+
+	front++; //front is incremented, which means dequeue no longer has to shift every data member down
+
+	return true;
+
+}
+
+bool Queue::empty() const { //if rear's position is one less than front's position, it means the queue is empty and returns true
+
+	if ((rear % max) == ((front % max) - 1)) {
+		return true;
+	} else return false;
+
+}
+
+bool Queue::full() const { //if the difference of rear and front is equal to one less than max then the queue is full and returns true
+
+	if ((rear - front + 1) == max) {
+		return true;
+	} else return false;
+
+}
+
+bool Queue::clear() { //clears the array of all data members and resets front and rear back to 0 and -1
+
+	if (empty()) { //if empty, resets front and rear and returns false
+		front = 0;
+		rear = -1;
+		return false;
+	}
+
+	int cursor = front; //cursor to go through array
+	int index; //index to stay within bound of the array
+
+	while (cursor != rear) { //sets each data member to 0
+		index = cursor % max;
+		data[index] = 0;
+		cursor++;
+	}
+
+	index = rear % max;
+
+	data[index] = 0;
+
+	front = 0; //resets front and rear
+	rear = -1;
+
+	return true;
+
+}
+
+bool Queue::operator==(const Queue& source) const { //returns true if two queues are equal
+
+	int count1 = 0;
+	int count2 = 0;
+
+	count1 = rear - front;
+	count2 = source.rear - source.front;
+
+	if (count1 != count2) { //tests to see if the actual size of both of the queues are the same
+		return false;
+	}
+
+	int cursor1 = front;
+	int cursor2 = source.front;
+
+	int index1, index2;
+
+	while (cursor1 != rear) { //loop that compares each individual data member of one queue to the other
+		index1 = cursor1 % max;
+		index2 = cursor2 % source.max;
+		if (data[index1] != data[index2]) { //returns false if any of them differ
+			return false;
+		}
+		cursor1++;
+		cursor2++;
+	}
+
+	index1 = cursor1 % max;
+	index2 = cursor2 % source.max;
+	if (data[index1] != data[index2]) {
+		return false;
+	}
+
+	return true;
+
+}
+
+ostream& operator<<(ostream& os, const Queue& source) { //outputs the queue
+
+	int cursor = source.front; //cursor to go through array
+	int index; //index to stay within bounds of the array
+
+	while (cursor != source.rear) { //loop that outputs each indivdual data member
+		index = cursor % source.max;
+		os << source.data[index];
+		cursor++;
+	}
+
+	index = cursor % source.max;
+
+	os << source.data[index];
+
+	return os;
+
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+This script file has been overwritten several times because I keep forgetting to append.
+I apologize for the inconvenience this has caused.
+Script started on Wed 27 Jan 2016 04:17:32 PM PST
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+]0;alex@ubuntu: ~/cs202/project1alex@ubuntu:~/cs202/project1$ exit
+Script done on Wed 27 Jan 2016 04:18:01 PM PST
+Script started on Wed 27 Jan 2016 04:18:51 PM PST
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+]0;alex@ubuntu: ~/cs202/project1alex@ubuntu:~/cs202/project1$ gedit project1.cpp
+]0;alex@ubuntu: ~/cs202/project1alex@ubuntu:~/cs202/project1$ gedit project1.cppexit[Kscriptgedit typescript [11Pscript[4Plscd project1/s[C[C[C[C[C[C[C[C[C[C[4Pd cs202[4Pexitgedit project1.cppls[Krm test./project1 g++ project1.cpp -o project1[10Pedit project1.cpp++ project1.cpp -o project1[10Pedit project1.cpp++ project1.cpp -o project1
+]0;alex@ubuntu: ~/cs202/project1alex@ubuntu:~/cs202/project1$ g++ project1.cpp -o project1[10Pedit project1.cppexit[Kscriptgedit typescript [11Pscript[2Pexitgedit project1.cppexit[K
+Script done on Wed 27 Jan 2016 04:23:05 PM PST
+Script started on Wed 27 Jan 2016 04:59:32 PM PST
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'indigo' before. Please make sure that the environment does not mix paths from different distributions.
+ROS_DISTRO was set to 'jade' before. Please make sure that the environment does not mix paths from different distributions.
+]0;alex@ubuntu: ~/cs202/project1alex@ubuntu:~/cs202/project1$ gedit documa[Kentation.txt
+]0;alex@ubuntu: ~/cs202/project1alex@ubuntu:~/cs202/project1$ exit
+Script done on Wed 27 Jan 2016 05:00:20 PM PST

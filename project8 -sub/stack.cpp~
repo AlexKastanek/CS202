@@ -1,0 +1,187 @@
+#include <iostream>
+#include <fstream>
+#include "stack.h"
+
+using namespace std;
+
+Stack::Stack(int a) {
+
+	max = a;
+	top = -1;
+	actual = 0;
+	data = new char[max];
+
+}
+
+Stack::Stack(const Stack& source) {
+
+	max = source.max;
+	top = source.top;
+	actual = source.actual;
+	data = new char[max];
+	for (int i = 0; i < max; i++) {
+		data[i] = source.data[i];
+	}
+
+}
+
+Stack::~Stack() {
+
+	top = -1;
+	actual = 0;
+	delete[] data;
+	data = NULL;
+
+}
+
+Stack& Stack::operator=(const Stack& source) {
+
+	clear();
+	delete[] data;
+	data = NULL;
+
+	max = source.max;
+	
+	if (source.empty()) {
+		top = -1;
+	} else top = 0;
+
+	actual = source.actual;
+
+	data = new char[source.max];
+
+	return *this;
+
+}
+
+bool Stack::push(char item) {
+
+	top = 0;
+
+	if (empty()) {
+		data[top] = item;
+		actual = 1;
+		return true;
+	}
+
+	char temp;
+
+	if (!full()) {
+		actual++;
+	}
+
+	for (int i = max - 1; i >= 0; i--) {
+		if (i == 0) {
+			data[top] = item;
+			return true;
+		} else {
+			data[i] = data[i - 1];
+		}
+	}
+
+	actual--;
+	return false;
+
+}
+
+bool Stack::pop(char& item) {
+
+	if (empty()) {
+		data[top] = '\0';
+		top = -1;
+		return true;
+	}
+
+	item = data[top];
+
+	actual--;
+
+	for (int i = 0; i < actual + 1; i++) {
+		data[i] = data[i + 1];
+		if (i == actual) {
+			data[i] = '\0';
+			return true;
+		}
+	}
+
+	actual++;
+	return false;
+
+}
+
+bool Stack::empty() const {
+
+	if (actual == 0) {
+		return true;
+	} else return false;
+
+}
+
+bool Stack::full() const {
+
+	if (actual == max) {
+		return true;
+	} else return false;
+
+}
+
+bool Stack::clear() {
+
+	if (empty()) {
+		return true;
+	}
+	
+	for (int i = 0; i < actual; i++) {
+
+		data[i] = '\0';
+
+	}
+
+	actual = 0;
+
+	if (full()) {
+		return false;
+	}
+
+	return true;
+
+}
+
+bool Stack::operator==(const Stack& source) const {
+
+	if (max != source.max) {
+		return false;
+	}
+
+	if (actual != source.actual) {
+		return false;
+	}
+
+	if (top != source.top) {
+		return false;
+	}
+
+	for (int i = 0; i < actual; i++) {
+		if (data[i] != source.data[i]) {
+			return false;
+		}
+	}
+
+	return true;
+
+}
+
+ostream& operator<<(ostream& os, const Stack& list) {
+
+	for (int i = 0; i < list.actual; i++) {
+		os << list.data[i];
+	}
+
+	return os;
+
+}
+
+
+
+
+

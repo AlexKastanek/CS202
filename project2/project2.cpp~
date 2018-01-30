@@ -1,0 +1,165 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+struct rentalCar {
+	char make[11];
+	char model[21];
+	int year;
+	float price;
+	bool availability;
+};
+
+void get_input(rentalCar*, char*);
+
+void print_data(rentalCar*);
+
+void estimate_cost(rentalCar*, int&, int&);
+
+void most_expensive(rentalCar*);
+
+void print_available(rentalCar*);
+
+int main() {
+
+	rentalCar carStats[10];
+	char fileName[21];
+	int userChoice;
+	//ifstream fin;
+
+	cout << "Please enter the name of the file: ";
+	cin >> fileName;
+	get_input(carStats, fileName);
+	//fin.open("carData");
+	/*for (int i = 0; i < 10; i++) {
+		fin >> carStats[i].year;
+		fin >> carStats[i].make;
+		fin >> carStats[i].model;
+		fin >> carStats[i].price;
+		fin >> carStats[i].availability;
+	}*/
+
+	do {
+		cout << "===========================================" << endl;
+		cout << "Please choose one of the following options:" << endl;
+		cout << "1) Print out all data for all of the cars" << endl;
+		cout << "2) Estimate car rental cost" << endl;
+		cout << "3) Find the most expensive car" << endl;
+		cout << "4) Print out only the available cars" << endl;
+		cout << "5) Exit program" << endl;
+
+		userChoice = 0;
+		cin >> userChoice;
+
+		switch (userChoice) {
+			case 1:
+				cout << endl << "================================" << endl;
+				cout << "All data for every car:" << endl;
+				cout << "================================" << endl;
+				print_data(carStats);
+				break;
+			case 2:
+				int dayNum, carNum;
+				cout << endl << "================================" << endl;
+				cout << "Estimation of car rental price:" << endl;
+				cout << "================================" << endl;
+				estimate_cost(carStats, dayNum, carNum);
+				cout << " over a " << dayNum << " day span." << endl;
+				cout << "------------------------------------------------" << endl;
+				break;
+			case 3:
+				cout << endl << "================================" << endl;
+				cout << "The most expensive car:" << endl;
+				cout << "================================" << endl;
+				most_expensive(carStats);
+				break;
+			case 4:
+				cout << endl << "==========================" << endl;
+				cout << "Car availability:" << endl;
+				cout << "==========================" << endl;
+				print_available(carStats);
+				break;
+			case 5:
+				userChoice = 5;
+				break;
+			default:
+				cout << "invalid choice" << endl;
+				userChoice = 0;
+		}
+	} while (userChoice != 5);
+
+	//fin.close();
+
+return 0;
+}
+
+void get_input(rentalCar carStats[10], char fileName[21]) {
+	ifstream fin;
+	fin.open(fileName);
+	for (int i = 0; i < 10; i++) {
+		fin >> carStats[i].year;
+		fin >> carStats[i].make;
+		fin >> carStats[i].model;
+		fin >> carStats[i].price;
+		fin >> carStats[i].availability;
+	}
+	fin.close();
+}
+
+void print_data(rentalCar carStats[10]) {
+	cout << "--------------------------------" << endl;
+	for (int i = 0; i < 10; i++) {
+		//cout << endl;
+		cout << "Car " << i + 1 << " is a ";
+		cout << carStats[i].year << " ";
+		cout << carStats[i].make << " ";
+		cout << carStats[i].model << "." << endl;
+		cout << "It costs $" << carStats[i].price << " dollars per day." << endl;
+		//cout << carStats[i].price << endl;
+		if (carStats[i].availability == true) {
+			cout << "It is currently available!" << endl;
+		} else cout << "It is currently unavailable." << endl;
+		cout << "--------------------------------" << endl;
+	}
+}
+
+void estimate_cost(rentalCar carStats[10], int &numberOfDays, int &carNumber) {
+	//int carNumber, numberOfDays; 
+	float estimation;
+	cout << "Please enter the car number of your choice (1 - 10): ";
+	cin >> carNumber;
+	cout << "Please enter the amount of days you would like to rent this car: ";
+	cin >> numberOfDays;
+	estimation = carStats[carNumber - 1].price * (float) numberOfDays;
+	cout << "------------------------------------------------" << endl;
+	cout << "Your " << carStats[carNumber].year << " " << carStats[carNumber].make << " " << carStats[carNumber].model << " will cost approximately " << endl; 
+	cout << "$" << estimation << " dollars";
+	//cout << "----------------------------------------------------" << endl;
+}
+
+void most_expensive(rentalCar carStats[10]) {
+	//int count;	
+	int expCar;
+	for (int i = 0; i < 10; i++) {
+		if (i == 0) {
+			expCar = i;
+		} else {
+			if (carStats[expCar].price < carStats[i].price) {
+				expCar = i;
+			}
+		}
+	}
+	cout << "--------------------------------" << endl;
+	cout << "The most expensive car is the " << endl << carStats[expCar].year << " " << carStats[expCar].make << " " << carStats[expCar].model << " starting at " << endl << carStats[expCar].price << " per day." << endl;
+	cout << "--------------------------------" << endl;
+}
+
+void print_available(rentalCar carStats[10]) {
+	for (int i = 0; i < 10; i++) {
+		if (carStats[i].availability == true) {
+			cout << "--------------------------" << endl;
+			cout << "The " << carStats[i].year << " " << carStats[i].make << " " << carStats[i].model << endl << "is available for rent." << endl;
+			cout << "--------------------------" << endl;
+		}
+	}
+}
